@@ -1,0 +1,87 @@
+.diagram { scroll-margin-top: 110px; }
+.mobileWires { display: none; }
+
+@media (max-width: 999px) {
+  .diagram.diagram { width: 100%; min-width: 0; padding-inline: clamp(16px, 4vw, 32px); }
+  .diagram.diagram :global(.connection-map) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto auto auto auto;
+    gap: 24px 12px;
+    height: auto;
+    padding: 10px;
+    margin-top: 32px;
+    isolation: isolate;
+  }
+  .diagram.diagram :global(.connection-wires) { display: none; }
+  .diagram .mobileWires {
+    display: block;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .mobileWires path { fill: none; stroke: #b0cfcc; stroke-width: 1.5; }
+  .mobileWires .activeWire { stroke: var(--mint); stroke-width: 3; }
+  .diagram.diagram :global(.connection-node) {
+    position: relative;
+    inset: auto !important;
+    width: 100%;
+    min-width: 0;
+    min-height: 128px;
+    padding: 14px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 1;
+    transform: none;
+    white-space: normal;
+    background: white;
+  }
+  .diagram.diagram :global(.teacher-node) { grid-area: 1 / 1; }
+  .diagram.diagram :global(.admin-node) { grid-area: 1 / 2; }
+  .diagram.diagram :global(.leader-node) { grid-area: 3 / 1; }
+  .diagram.diagram :global(.parent-node) { grid-area: 3 / 2; }
+  .diagram.diagram :global(.connection-node) > span { max-width: 100%; min-width: 0; }
+  .diagram.diagram :global(.connection-node) strong { font-size: .875rem; line-height: 1.4; }
+  .diagram.diagram :global(.connection-node) small { font-size: .8125rem; line-height: 1.5; overflow-wrap: anywhere; }
+  .diagram.diagram :global(.connection-hub) {
+    position: relative;
+    inset: auto;
+    transform: none;
+    grid-area: 2 / 1 / 3 / -1;
+    place-self: center;
+    width: 164px;
+    height: auto;
+    min-height: 164px;
+    aspect-ratio: 1;
+    padding: 14px;
+    gap: 8px;
+    z-index: 1;
+  }
+  .diagram.diagram :global(.connection-hub) strong { font-size: .9375rem; }
+  .diagram.diagram :global(.connection-hub) > span { font-size: .75rem; }
+  .diagram.diagram :global(.travelling-update) {
+    position: relative;
+    inset: auto;
+    transform: none;
+    grid-area: 4 / 1 / 5 / -1;
+    justify-self: center;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: .8125rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .diagram.diagram :global(.travelling-update) > svg { flex-shrink: 0; }
+  .diagram.diagram :global(.connection-caption) { gap: 8px; font-size: .8125rem; line-height: 1.6; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .diagram.diagram :global(.section-heading) h2 { font-size: clamp(1.875rem, 8.3vw, 2.5rem); line-height: 1.15; }
+}

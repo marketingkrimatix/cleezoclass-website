@@ -1,0 +1,62 @@
+{
+  "researched_at": "2026-09-21",
+  "license_url": "https://www.pexels.com/license/",
+  "reuse_notes": "Pexels permits free website and marketing use, modification, and optional attribution. Do not imply the depicted people endorse Cleezo Class, use the imagery as a trademark, redistribute it as stock, or depict recognizable people offensively. Treat these as illustrative stock rather than customer or school documentation.",
+  "photos": [
+    {
+      "path": "/workspace/scratch/ad5a366a89d4/media/classroom-learning.jpg",
+      "pexels_id": "5905492",
+      "photographer": "Katerina Holmes",
+      "native_resolution": [
+        6000,
+        4000
+      ],
+      "bytes": 2970283,
+      "source_url": "https://www.pexels.com/photo/anonymous-ethnic-tutor-helping-little-multiracial-students-with-task-in-classroom-5905492/",
+      "image_url": "https://images.pexels.com/photos/5905492/pexels-photo-5905492.jpeg?cs=srgb&dl=pexels-katerina-holmes-5905492.jpg&fm=jpg",
+      "description": "Two pupils writing while a teacher points at a workbook. Natural daylight, wood desk, teal clothing, no identifiable institution.",
+      "crop": "Desktop: 3:2 or 4:3 with object-position 50% 50%. Keep the pointing hand and notebook in frame. Mobile: 4:3 works well; for a taller crop use object-position 59% 50% to prioritize the pupil and teacher's hand. Avoid headline text over faces. The orange book at far right can be cropped away.",
+      "verification": "Primary photo page confirms author and Free to use; downloaded full JPEG inspected visually."
+    },
+    {
+      "path": "/workspace/scratch/ad5a366a89d4/media/school-workspace.jpg",
+      "pexels_id": "5124906",
+      "photographer": "cottonbro studio (download credited cottonbro; EXIF artist/copyright Dimenshteyn)",
+      "native_resolution": [
+        3500,
+        2333
+      ],
+      "bytes": 806538,
+      "source_url": "https://www.pexels.com/search/school%20supplies/",
+      "image_url": "https://images.pexels.com/photos/5124906/pexels-photo-5124906.jpeg?cs=srgb&dl=pexels-cottonbro-5124906.jpg&fm=jpg",
+      "description": "Real photo of hands arranging a paper backpack with pencils, ruler and eraser against a soft blue surface. Warm peach paper, pale blue background, natural wood pencils.",
+      "crop": "Desktop: retain 3:2 and the generous open left side; subject occupies right half. Mobile: 4:5 crop with object-position 78% 50%, ensuring both hands remain visible. Useful as a supporting supplies detail rather than another large people photo.",
+      "verification": "Exact primary Pexels search-result download links to this file and credits cottonbro in the download filename; full JPEG inspected visually. Individual photo page could not be resolved via web tool.",
+      "fit_note": "More deliberately arranged than a candid workspace; selected for the cohesive blue, warm neutral palette and region-neutral school context."
+    }
+  ],
+  "optional_video": {
+    "pexels_id": "5183601",
+    "creator": "Pavel Danilyuk",
+    "source_url": "https://www.pexels.com/zh-cn/video/5183601/",
+    "video_url": "https://videos.pexels.com/video-files/5183601/5183601-hd_1920_1080_30fps.mp4",
+    "poster_path": "/workspace/scratch/ad5a366a89d4/media/video-5183601-preview.jpg",
+    "poster_url": "https://images.pexels.com/videos/5183601/backpack-books-boy-classes-5183601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900",
+    "native_resolution": [
+      1920,
+      1080
+    ],
+    "duration_seconds": 20,
+    "fps": 29.97,
+    "description": "Rear view of a school-age child carrying a backpack and walking through a green garden toward school.",
+    "reuse_notes": "Same Pexels license; use as illustrative school-day footage, with no customer or institutional endorsement claim. Plain white shirt and dark backpack are fairly neutral; residential architecture in distance makes this less region-neutral than the main photo.",
+    "download_status": "Integrated as click-to-play muted video on About; no dialogue. Compressed local delivery.",
+    "crop": "Keep landscape 16:9. A centered mobile crop can preserve the child. Prefer click-to-play, or a short muted background excerpt only where reduced-motion and loading controls are handled.",
+    "downloaded_rendition_verified": {
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 19.552867,
+      "note": "Source URL suggests 1080p but ffprobe shows 720p. No 4K claim is made."
+    }
+  }
+}

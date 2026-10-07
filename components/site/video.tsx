@@ -1,0 +1,4 @@
+'use client';
+import {useState,useRef} from 'react';
+import {Play} from 'lucide-react';
+export function SchoolVideo(){const [started,setStarted]=useState(false);const ref=useRef<HTMLVideoElement>(null);return <figure className="school-video"><div className="video-stage"><video ref={ref} width="1280" height="720" poster="/school-day-poster.webp" controls={started} playsInline muted preload="none" onEnded={()=>setStarted(false)} aria-label="A quiet moment on the way to school" src={started?'/school-day.mp4':undefined}/>{!started&&<button className="video-play" onClick={()=>{setStarted(true);requestAnimationFrame(()=>ref.current?.play().catch(()=>{}))}}><Play size={22}/><span>A moment in the school day <small>20 seconds · No dialogue</small></span></button>}</div><figcaption>A child with a backpack walks along a garden path toward a gate. Illustrative footage by Pavel Danilyuk / Pexels; not a Cleezo customer.</figcaption></figure>}

@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "title": "School ERP Software for K–12 & Multi-Branch Schools | Cleezo Class",
+    "description": "Cleezo Class school ERP software connects admissions, fee collection, academics, attendance, payroll and parent communication for K–12 and multi-branch schools."
+  },
+  "hero": {
+    "eyebrow": "One connected system for school operations",
+    "title": "School ERP Software for Connected School Operations",
+    "description": "Cleezo Class brings admissions, fee collection, academics, attendance, payroll and parent communication into one role-based school ERP system. Built for K–12 schools, academies, school groups and multi-branch institutions, it helps every team work from the same school record.",
+    "primary": "Request a Demo",
+    "secondary": "Explore the Platform",
+    "strip": "CBSE, ICSE, SSC and State Board schools · Role-based workspaces · Multi-branch centralisation"
+  },
+  "sections": [
+    {
+      "title": "What is school ERP software?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ERP stands for **enterprise resource planning**. In a school, ERP software connects the operational systems a school uses every day: admissions, student records, finance, academics, attendance, HR and communication. Instead of managing separate spreadsheets and tools, authorised teams work from connected data and role-specific workflows."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo Class is school ERP software designed to support that full school lifecycle—from the first admission enquiry through fee collection, examinations, report cards and parent updates."
+        }
+      ]
+    },
+    {
+      "title": "One school record. Fewer disconnected handovers.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When admissions, finance, academics and parent communication are managed in separate systems, teams repeatedly re-enter information and lose the context behind a student’s journey."
+        },
+        {
+          "type": "paragraph",
+          "text": "With Cleezo, an accepted applicant can become a student record without retyping information. Accounts can apply the relevant fee structure and issue a receipt. Administrators and teachers can then manage attendance, timetables, examinations and report cards from the same connected platform."
+        },
+        {
+          "type": "heading",
+          "text": "The workflow Cleezo connects"
+        },
+        {
+          "type": "ordered",
+          "items": [
+            "Capture walk-in enquiries, QR registrations and imported leads.",
+            "Record counselling, entrance-test and admission outcomes.",
+            "Convert accepted applicants into student records.",
+            "Configure fees, record payments and review outstanding dues.",
+            "Manage academics, attendance, examinations and report cards.",
+            "Keep parents informed through digital records and the school’s paired WhatsApp communication workflow."
+          ]
+        },
+        {
+          "type": "cta",
+          "text": "Discuss your school’s ERP requirements"
+        }
+      ]
+    },
+    {
+      "title": "The modules that make up your school ERP",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Admissions CRM and enrolment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Give every applicant a tracking number and bring walk-ins, QR registrations and Excel lead imports into one admissions pipeline. Front-desk and admissions teams can record entrance-test and counselling outcomes, plan WhatsApp follow-ups, and convert accepted applicants to student records without re-entering their details."
+        },
+        {
+          "type": "heading",
+          "text": "Fee collection and school accounting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Create class-wise fee structures for tuition, admission, transport, sports, term and lab fees. Record payments by cash, UPI, cheque or bank transfer, issue branded receipts with verification QR codes, and manage approved merit, sibling or referral concessions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Finance teams can review fee status, arrears, daily collections, defaulter lists, transport fee ledgers, student passbooks, expenses and vendor or party ledgers in the same system."
+        },
+        {
+          "type": "heading",
+          "text": "Academic and examination management"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manage timetables, substitute allocations, examinations, seating arrangements, invigilator schedules and hall tickets. Cleezo supports six configurable report-card templates with marks breakdowns, attendance percentages, charts and performance trends."
+        },
+        {
+          "type": "heading",
+          "text": "Attendance, HR and payroll"
+        },
+        {
+          "type": "paragraph",
+          "text": "Synchronise student and staff attendance from supported networked biometric or RFID devices. Track late and irregular attendance, manage leave workflows, configure salary components and deductions, and generate salary slips."
+        },
+        {
+          "type": "heading",
+          "text": "Parent communication and student access"
+        },
+        {
+          "type": "paragraph",
+          "text": "Give parents and students access to fee status, digital report cards and event updates. Schools can pair their official WhatsApp number to send fee receipts, attendance alerts and approved admission or promotional communications."
+        },
+        {
+          "type": "heading",
+          "text": "Multi-branch centralisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "For school groups and educational trusts, Cleezo provides a central workspace for campus setup, master data, bulk Excel import, student and staff directories, and institutional database backups."
+        },
+        {
+          "type": "cta",
+          "text": "Request a Demo"
+        }
+      ]
+    },
+    {
+      "title": "How to evaluate school ERP software for your school",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before choosing a school ERP, align the product evaluation with the way your school actually operates:"
+        },
+        {
+          "type": "ordered",
+          "items": [
+            "**Modules:** Which workflows need to be connected now—admissions, fees, academics, attendance, HR/payroll, parent communication or multi-branch control?",
+            "**Existing records:** Which student, staff and lead records need cleaning and importing from Excel?",
+            "**Role access:** Which teams need dedicated workspaces, and what information should each role be able to manage?",
+            "**Attendance setup:** Which biometric or RFID devices are currently used, and how will attendance exceptions be reviewed?",
+            "**Communication:** Which school communications should use the official paired WhatsApp number, and who approves them?",
+            "**Branch structure:** Which information needs central visibility, and what must be managed at each campus?",
+            "**Pricing:** Which modules are required and how many students will use the platform?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Use Cleezo’s [school management software evaluation checklist](/resources/school-management-evaluation-checklist/) to involve the right school, finance and academic stakeholders before a demo."
+        }
+      ]
+    },
+    {
+      "title": "Multi-branch school ERP with central visibility and campus workflows",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Multi-campus school groups need more than a shared student list. Cleezo’s centralisation workspace gives central teams a place to set up campuses, manage master data, perform bulk Excel imports, maintain student and staff directories and support institutional database backups."
+        },
+        {
+          "type": "paragraph",
+          "text": "Campus teams can then use the role-based workspaces relevant to their operations: front desk teams manage enquiries and follow-ups; accounts teams manage collections and dues; administrators manage academics and operations; HR manages attendance and payroll; teachers, parents and students access their relevant day-to-day records."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Central teams can manage",
+              "Campus teams can manage"
+            ],
+            [
+              "Campus setup and institution-wide master data",
+              "Admissions and front-desk workflows"
+            ],
+            [
+              "Bulk imports and school-wide directories",
+              "Fee collection and local finance workflows"
+            ],
+            [
+              "Multi-branch visibility and database backups",
+              "Academics, attendance, events and daily operations"
+            ],
+            [
+              "Role account provisioning",
+              "Teacher, parent and student-facing tasks"
+            ]
+          ]
+        },
+        {
+          "type": "cta",
+          "text": "Discuss your multi-branch ERP setup"
+        }
+      ]
+    },
+    {
+      "title": "Role-specific workspaces, without disconnected data",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cleezo gives school leadership, administration, accounts, front desk, HR, teachers, parents and students workspaces relevant to their day-to-day responsibilities. Each team works from connected school information rather than maintaining a separate record."
+        }
+      ]
+    },
+    {
+      "title": "Automation for recurring school tasks",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Conflict-aware timetable generation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo’s timetable engine uses teacher availability, class sections, periods, break intervals and subject weightage to generate weekly timetables. It identifies teacher overlaps and helps administrators find available substitutes when staff are absent."
+        },
+        {
+          "type": "heading",
+          "text": "Curriculum-aware question-paper generation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use chapter and syllabus topics to prepare question papers. Teachers can select formats such as MCQs, short answers and long answers, set marks allocation and export branded PDFs."
+        },
+        {
+          "type": "heading",
+          "text": "AI-assisted student photo preparation"
+        },
+        {
+          "type": "paragraph",
+          "text": "When staff capture or upload student photos, Cleezo can remove a non-white background on the device, add a clean white background and format the image for school ID-card workflows."
+        },
+        {
+          "type": "heading",
+          "text": "Student performance trends"
+        },
+        {
+          "type": "paragraph",
+          "text": "Report-card views can show multi-term subject trends, charts and performance indicators so teachers and parents can review progress beyond a single mark sheet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explore [Cleezo AI & Automation](/ai/) for a closer look at these school workflows."
+        }
+      ]
+    },
+    {
+      "title": "More than basic school management software",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Along with core ERP workflows, Cleezo supports operational activities that often remain outside a basic student-record system:"
+        },
+        {
+          "type": "unordered",
+          "items": [
+            "Examination seating plans, invigilator schedules and hall tickets",
+            "ID-card production with 26 templates, batch generation and print-ready PDF grids",
+            "Store and inventory workflows for uniforms, books, notebooks, belts and badges, including low-stock alerts and purchase orders",
+            "Branded admission, topper, festival and school-announcement creatives",
+            "Excel import and export for student, staff and lead data"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Built for K–12 schools and school groups in India",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cleezo supports private K–12 schools, academies, educational trusts and multi-campus school groups, including CBSE, ICSE, SSC and State Board institutions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether you are replacing disconnected tools at one campus or creating more consistent operations across multiple branches, the right Cleezo setup begins with the modules, roles and student scale your school needs."
+        }
+      ]
+    },
+    {
+      "title": "Start with the modules your school needs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Set up your institution profile, board affiliation, number of students and selected modules. Cleezo can provision core role accounts for administration, accounts, HR and front desk. Teams can use Excel import to bring historical student, staff and lead data into the platform."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before preparing records for import, read [Questions to ask before moving school records into a digital system](/resources/moving-school-records-digital/). It helps teams identify record ownership, data preparation and migration checks before implementation."
+        },
+        {
+          "type": "cta",
+          "text": "Plan your Cleezo setup"
+        }
+      ]
+    },
+    {
+      "title": "School ERP software FAQs",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What is the difference between school management software and school ERP software?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The terms often overlap. [School management software](/) is the broader category, while school ERP software usually refers to a more connected system across admissions, finance, academics, attendance, HR and communication. When evaluating either category, schools should compare the actual workflows, role access, integrations and reports—not the label alone."
+        },
+        {
+          "type": "heading",
+          "text": "How should a school choose the right ERP modules?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start with the workflows creating the most manual work or fragmented information. Cleezo can be configured around the modules a school needs, such as admissions, fees, academics, attendance, HR/payroll, parent communication and multi-branch operations. The demo should map those needs to the right role workspaces."
+        },
+        {
+          "type": "heading",
+          "text": "What should a school prepare before importing records?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prepare the student, staff and lead records that need to be imported, identify the fields each record needs, and check which data needs cleaning or validation. Cleezo supports Excel import and export for these records; the implementation plan should confirm the final mapping."
+        },
+        {
+          "type": "heading",
+          "text": "How does school ERP software coordinate different departments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "It connects related workflows through one school record. For example, an accepted admission enquiry can become a student record; the accounts team can then configure the appropriate fees, while administrators and teachers use the same record for academic, attendance and report-card workflows."
+        },
+        {
+          "type": "heading",
+          "text": "How are multiple campuses set up in Cleezo?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo’s centralisation workspace supports campus setup, master data, bulk Excel imports, student and staff directories and institutional database backups. The implementation plan should define the branches, role accounts and modules required for each campus."
+        },
+        {
+          "type": "heading",
+          "text": "Which schools can use Cleezo Class?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo supports private K–12 schools, academies, educational trusts and multi-branch school groups, including CBSE, ICSE, SSC and State Board institutions."
+        },
+        {
+          "type": "heading",
+          "text": "Does Cleezo have a timetable generator?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. The timetable engine considers teacher availability, class sections, periods, breaks and subject weightage when creating weekly schedules. It flags teacher overlaps and can support substitute allocation when staff are absent."
+        },
+        {
+          "type": "heading",
+          "text": "How is Cleezo priced?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo plans are selected according to the number of students and the modules a school needs. Request a demo to review the appropriate configuration and commercial proposal."
+        }
+      ]
+    },
+    {
+      "title": "See what a connected school ERP can look like for your campus",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tell us whether you need better admissions tracking, fee visibility, academic coordination, attendance and payroll, multi-branch control—or a combination. We’ll walk you through the Cleezo workspaces and modules that fit your school."
+        },
+        {
+          "type": "cta",
+          "text": "Request a Demo"
+        },
+        {
+          "type": "cta",
+          "text": "Log In"
+        }
+      ]
+    }
+  ]
+}

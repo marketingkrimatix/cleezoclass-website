@@ -1,0 +1,3283 @@
+{
+  "complete": true,
+  "checks": 364,
+  "failures": [],
+  "results": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class — A school day, beautifully connected",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/platform",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management Platform | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "School Management for Every Role | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/ai",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "AI & Automation for School Workflows | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/about",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "About Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Practical School Management Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/contact",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Contact Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/book-demo",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Book a Cleezo Class Demo | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/request-a-quote",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Request a School Software Quote | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/privacy",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Privacy | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/terms",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Website Terms | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/leaders",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for School Leaders | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/administrators",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Administrators | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/teachers",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Teachers | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/solutions/parents",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Cleezo Class for Parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/scheduling",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Scheduling & Attendance | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/learning",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Learning & Assignments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/exams",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Exams & Assessments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/communication",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Communication & Alerts | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/finance",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Finance & Payments | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/transport",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Transport & Safety | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/staff",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Staff & Productivity | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/engagement",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Engagement & Personalization | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/school-management-system/library",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Library & Resources | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/school-management-evaluation-checklist",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "A practical checklist for evaluating school management software | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/moving-school-records-digital",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Questions to ask before moving school records into a digital system | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/resources/clearer-school-parent-communication",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Planning clearer communication between schools and parents | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 360,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 375,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 412,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 430,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 1600,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    },
+    {
+      "route": "/missing-page",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "title": "Page not found | Cleezo Class | Cleezo Class",
+      "brokenImages": [],
+      "tabs": 0
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import {modules,modulePath} from './modules';
+import {resources} from './resources';
+export const sitePaths=['','/school-erp-software','/platform','/solutions','/solutions/leaders','/solutions/administrators','/solutions/teachers','/solutions/parents','/ai','/about','/resources','/contact','/book-demo','/request-a-quote','/privacy','/terms',...modules.map(m=>modulePath(m.slug)),...resources.map(r=>'/resources/'+r.slug)];
