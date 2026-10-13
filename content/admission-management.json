@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "title": "Admission Management Software for Schools | Cleezo Class",
+    "description": "Manage school enquiries, walk-ins, registrations, counselling and enrolment in one connected admission management software workflow with Cleezo Class."
+  },
+  "hero": {
+    "title": "Admission Management Software for Schools",
+    "description": "Bring school enquiries, walk-ins, registrations, counselling and enrolment into one connected admission workflow. Cleezo Class helps admission teams follow every prospective student from the first enquiry through to an enrolled student record.",
+    "supporting": "Built for private K–12 schools, academies and multi-campus institutions."
+  },
+  "sections": [
+    {
+      "title": "A connected admission process, from enquiry to enrolment",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Admissions involve more than an online form. School teams need a reliable way to record enquiries, collect registration details, manage the next step, and ensure accepted applicants become part of the school’s active student record."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo Class connects those stages in one admission management system. Teams can manage walk-ins, QR registrations, Excel imports, tracking IDs, entrance and counselling workflows, and the movement of accepted enquiries into enrolled student records."
+        }
+      ]
+    },
+    {
+      "title": "Capture and organise admission enquiries",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Give the admissions team a consistent place to begin every prospective-student journey."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Record walk-in enquiries through the admission workflow.",
+            "Use QR registration when the school needs a quick registration path for prospective parents and students.",
+            "Import enquiry data from Excel when the school already has approved prospect data to add.",
+            "Use tracking IDs to organise and follow individual enquiries."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps teams avoid losing the context of an enquiry as it moves between the front desk, counselling and admission teams."
+        },
+        {
+          "type": "cta",
+          "text": "Discuss Your Admission Workflow"
+        }
+      ]
+    },
+    {
+      "title": "Manage entrance and counselling stages",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Different schools use different evaluation and counselling processes. Cleezo Class keeps the applicant’s tracking ID and admission-stage progress in the same admission record as the enquiry moves through entrance and counselling stages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Admissions users can see where an enquiry is in the school’s process and continue working from the relevant applicant information until the school makes its admission decision."
+        }
+      ]
+    },
+    {
+      "title": "Turn accepted enquiries into enrolled student records",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When an applicant is accepted, the transition into the school should not require a disconnected data-entry process. Cleezo Class supports the conversion of an accepted enquiry into an enrolled student record."
+        },
+        {
+          "type": "paragraph",
+          "text": "That record becomes part of the broader [student information system](/student-information-system/), where the school can manage student information, attendance, academics, fees and parent access through connected workflows."
+        }
+      ]
+    },
+    {
+      "title": "Follow up through the school’s official WhatsApp number",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prospective-parent follow-up needs consistency and appropriate oversight. When a school pairs its official WhatsApp number with Cleezo Class, admissions users can use the school-owned number for enquiry tracking and follow-up instead of relying on personal messaging accounts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here, tracking means keeping the follow-up activity connected to the relevant admission enquiry. Admissions staff manage these follow-ups through the school’s official WhatsApp number."
+        },
+        {
+          "type": "cta",
+          "text": "Book a Demo"
+        }
+      ]
+    },
+    {
+      "title": "Admission management as part of school ERP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Admissions does not operate in isolation. Once a student joins, the school needs the connected systems that support records, attendance, academics, fees and parent communication."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo Class brings admissions into its broader [school ERP software](/school-erp-software/) workflow. Explore [school management software](/) for a complete view of how Cleezo supports the teams who run a school."
+        }
+      ]
+    },
+    {
+      "title": "Suitable for central and campus admission teams",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For multi-campus institutions, admission operations often involve both central oversight and campus-level activity. Cleezo Class is designed for multi-branch and multi-campus institutions, with role-appropriate workspaces and centralisation workflows."
+        },
+        {
+          "type": "quote",
+          "text": "Discuss your institution’s campus structure, enquiry sources and admission process during a Cleezo Class demo."
+        },
+        {
+          "type": "cta",
+          "text": "Discuss Your Multi-Campus Setup"
+        }
+      ]
+    },
+    {
+      "title": "FAQs",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What is admission management software for schools?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Admission management software helps a school organise the process from a prospective family’s first enquiry through registration, counselling or entrance steps, admission decisions and enrolment. It gives admission teams a structured workflow instead of relying on separate spreadsheets and disconnected communication."
+        },
+        {
+          "type": "heading",
+          "text": "Can Cleezo Class manage walk-in admissions and QR registrations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo Class supports walk-in enquiries and QR registration as part of its admission workflow. The right process can be configured around the school’s admission operations."
+        },
+        {
+          "type": "heading",
+          "text": "Can existing enquiry data be added to the platform?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo Class supports Excel imports for approved enquiry data. During implementation, the school and implementation team should agree on the data fields, import responsibility and validation steps."
+        },
+        {
+          "type": "heading",
+          "text": "What can admissions teams do during entrance and counselling stages?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Admissions teams can keep the applicant’s tracking ID and admission-stage progress with the same enquiry record as it moves through entrance and counselling stages. This gives teams a clearer view of where the applicant is in the school’s defined admission process."
+        },
+        {
+          "type": "heading",
+          "text": "Can an accepted applicant become an enrolled student record?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo Class supports the conversion of an accepted enquiry into an enrolled student record. That record can then be managed through the connected [student information system](/student-information-system/)."
+        },
+        {
+          "type": "heading",
+          "text": "Can admission teams use WhatsApp for follow-up?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. A school can pair its authorised WhatsApp number with Cleezo Class so admissions staff can follow up with prospective parents through a school-owned channel and keep follow-up activity connected to the relevant enquiry."
+        },
+        {
+          "type": "heading",
+          "text": "Is Cleezo Class suitable for multi-campus admission operations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo Class supports multi-branch and multi-campus institutions with role-appropriate workspaces and centralisation workflows. A demo can be configured around the institution’s admissions structure."
+        }
+      ]
+    },
+    {
+      "title": "Build an admission workflow that carries through to enrolment",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Discuss your school’s enquiry sources, registration process, counselling workflow and campus structure with the Cleezo Class team."
+        },
+        {
+          "type": "cta",
+          "text": "Book a Demo"
+        }
+      ]
+    }
+  ]
+}

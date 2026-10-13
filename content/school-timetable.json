@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "title": "School Timetable Software for K–12 Schools | Cleezo Class",
+    "description": "Build school timetables around teacher availability, sections, breaks and subject weightage. Cleezo helps K–12 schools manage scheduling, clashes and substitutes."
+  },
+  "hero": {
+    "eyebrow": "Academic scheduling, organised around real constraints",
+    "title": "School Timetable Software for K–12 Schools",
+    "description": "Create school timetables with Cleezo Class’s automatic timetable generator. Build schedules around teacher availability, sections, periods, breaks and subject weightage, then review the timetable and manage scheduling clashes or substitute-teacher arrangements.",
+    "strip": "Teacher availability · Sections and periods · Breaks and subject weightage · Clash management and substitute support"
+  },
+  "sections": [
+    {
+      "title": "What is school timetable software?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**School timetable software** helps a school organise classes, subjects, teachers, sections and periods into an academic schedule. Rather than building every timetable manually in spreadsheets, academic teams can work from the rules and constraints that shape a practical school day."
+        },
+        {
+          "type": "paragraph",
+          "text": "For schools evaluating an online timetable generator, a useful timetable is more than a grid of periods. It needs to reflect the availability of teachers, the number of sections, scheduled breaks, subject requirements and the changes that arise during the term."
+        }
+      ]
+    },
+    {
+      "title": "When manual timetable planning becomes difficult",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Manual timetables are often difficult to update because one change can affect several teachers, sections and periods. Academic teams need to balance subject allocation with real teaching availability while keeping the timetable clear enough for day-to-day use."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo helps schools bring that planning into their wider school operations instead of treating the timetable as an isolated spreadsheet."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Planning challenge",
+              "What the timetable must account for"
+            ],
+            [
+              "Teacher allocation",
+              "Which teacher is available for each subject and period"
+            ],
+            [
+              "Multiple sections",
+              "How classes are scheduled across the required sections"
+            ],
+            [
+              "Breaks and school-day structure",
+              "Where breaks fit within the period plan"
+            ],
+            [
+              "Subject weightage",
+              "How often a subject needs to appear in the timetable"
+            ],
+            [
+              "Changes during the term",
+              "How teams review scheduling clashes and coordinate substitute-teacher arrangements"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Build timetables around the constraints your school manages",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cleezo’s timetable engine is designed for the factors academic teams manage when creating a school schedule."
+        },
+        {
+          "type": "heading",
+          "text": "Teacher availability"
+        },
+        {
+          "type": "paragraph",
+          "text": "Set up scheduling around the availability of teachers and the subjects they are allocated to teach. This gives academic teams a clearer foundation before they review the final timetable."
+        },
+        {
+          "type": "heading",
+          "text": "Sections, periods and breaks"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan the school day around the sections and periods that need to be scheduled, including designated breaks. Teams can work from a timetable structure that reflects the way their institution operates."
+        },
+        {
+          "type": "heading",
+          "text": "Subject weightage"
+        },
+        {
+          "type": "paragraph",
+          "text": "Account for the subject weightage required in the timetable so academic planning reflects the expected distribution of subjects across the school week."
+        },
+        {
+          "type": "heading",
+          "text": "Clash management and substitute support"
+        },
+        {
+          "type": "paragraph",
+          "text": "Review scheduling clashes and manage substitute-teacher arrangements when the original timetable needs adjustment."
+        },
+        {
+          "type": "cta",
+          "text": "Discuss your school’s timetable requirements"
+        }
+      ]
+    },
+    {
+      "title": "From timetable planning to daily academic operations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A timetable is most useful when it sits alongside the other workflows a school already manages. Cleezo connects academic scheduling to its broader [school ERP software](/school-erp-software/) platform, so timetable planning forms part of the school’s operational system—not a disconnected task."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alongside timetable planning, Cleezo’s [student information system](/student-information-system/) brings together student records, attendance, academic progress, fees and parent access."
+        }
+      ]
+    },
+    {
+      "title": "Designed for the teams who manage the school day",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Team",
+              "How the timetable workflow supports their work"
+            ],
+            [
+              "Academic coordinators",
+              "Set up the scheduling inputs, review the timetable and manage adjustments."
+            ],
+            [
+              "School administrators",
+              "Work with the timetable as part of day-to-day academic operations."
+            ],
+            [
+              "Teachers",
+              "Use their allocated schedule and support substitute arrangements when needed."
+            ],
+            [
+              "School leadership",
+              "Review how the timetable is structured across subjects, teachers and sections."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A practical timetable-planning checklist",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before setting up a timetable, confirm the information the academic team needs:"
+        },
+        {
+          "type": "ordered",
+          "items": [
+            "Which sections and periods need to be scheduled?",
+            "Which teachers are allocated to each subject, and when are they available?",
+            "What break structure should the timetable follow?",
+            "What subject weightage should each section receive during the week?",
+            "How should the team manage a clash or teacher absence?",
+            "Which users need access to create, review or use the timetable?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Discuss these requirements with academic coordinators, teachers and administrators before a demo so Cleezo can be configured around your school’s operating model."
+        }
+      ]
+    },
+    {
+      "title": "School timetable software FAQs",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What is school timetable software?"
+        },
+        {
+          "type": "paragraph",
+          "text": "School timetable software is used to plan and manage schedules for teachers, subjects, sections and periods. A school can use it to bring scheduling rules and daily academic operations into one structured workflow."
+        },
+        {
+          "type": "heading",
+          "text": "Can Cleezo account for teacher availability when building a timetable?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo’s timetable engine considers teacher availability as part of the scheduling inputs, alongside sections, breaks and subject weightage."
+        },
+        {
+          "type": "heading",
+          "text": "Can Cleezo account for breaks and subject weightage?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Academic teams can plan the timetable around their period and break structure while accounting for the required subject weightage."
+        },
+        {
+          "type": "heading",
+          "text": "Can Cleezo help when there is a timetable clash or teacher absence?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo includes clash support and substitute-teacher workflows to help teams manage timetable adjustments."
+        },
+        {
+          "type": "heading",
+          "text": "Does Cleezo use AI to generate school timetables?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo uses a constraint-based scheduling engine to generate timetables around teacher availability, sections, breaks and subject weightage. This is timetable automation; it does not require generative AI. Academic teams can review the resulting schedule and manage clashes or substitute-teacher arrangements."
+        },
+        {
+          "type": "heading",
+          "text": "How does timetable software fit into school management software?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Timetable planning is one part of a broader [school management software](/) platform. Cleezo connects it with the academic, student, attendance and administrative workflows a school manages every day."
+        }
+      ]
+    },
+    {
+      "title": "Bring more structure to timetable planning",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "See how Cleezo Class can help your academic team build and maintain timetables around teacher availability, sections, breaks and subject requirements."
+        },
+        {
+          "type": "actions"
+        }
+      ]
+    }
+  ]
+}
