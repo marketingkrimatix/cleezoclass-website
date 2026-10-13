@@ -178,3 +178,5 @@
 .homepage-copy .automation-timetable tr:last-child td { border-bottom: 0; }
 
 .homepage-copy .homepage-resources-action { display: flex; justify-content: center; margin-top: 32px; }
+
+.homepage-flow-copy .homepage-context-link { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }

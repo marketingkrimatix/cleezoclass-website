@@ -52,14 +52,13 @@ const tabNames = ["Admissions", "Attendance", "Academics", "Communication"];
 export function ImmersiveMotion() {
   const path = usePathname();
   const disabled = useMotionDisabled();
-  const cursor = useRef<HTMLDivElement>(null);
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     if (disabled) return;
     const ctx = gsap.context(() => {
       const media = gsap.matchMedia();
       media.add("(prefers-reduced-motion: no-preference)", () => {
-        gsap.to(".reading-progress", {
+        if (path !== "/student-information-system" && path !== "/student-information-system/") gsap.to(".reading-progress", {
           scaleX: 1,
           ease: "none",
           scrollTrigger: { start: 0, end: "max", scrub: true },
@@ -187,16 +186,6 @@ export function ImmersiveMotion() {
       if (!fine) return;
       cancelAnimationFrame(frame);
       frame = requestAnimationFrame(() => {
-        if (cursor.current) {
-          cursor.current.style.left = e.clientX + "px";
-          cursor.current.style.top = e.clientY + "px";
-          const target = (e.target as Element).closest(
-            "a,button,[data-cursor]",
-          );
-          cursor.current.classList.toggle("cursor-active", !!target);
-          cursor.current.textContent =
-            (target as HTMLElement)?.dataset.cursor || "";
-        }
         const magnetic = (e.target as Element).closest<HTMLElement>(
           ".hero-actions .button,.site-header .desktop-nav a",
         );
@@ -236,16 +225,7 @@ export function ImmersiveMotion() {
       document.removeEventListener("pointermove", pointer);
     };
   }, [disabled, path]);
-  return (
-    <>
-      <div className="reading-progress" aria-hidden="true" />
-      <div
-        ref={cursor}
-        className={`focus-cursor ${disabled ? "off" : ""}`}
-        aria-hidden="true"
-      />
-    </>
-  );
+  return path === "/student-information-system" || path === "/student-information-system/" ? null : <div className="reading-progress" aria-hidden="true" />;
 }
 
 export function ExperienceHero() {
@@ -262,7 +242,7 @@ export function ExperienceHero() {
           </div>
           <a className="hero-scroll" href="#connections"><span><ArrowDown size={16}/></span>From enquiry to report card</a>
         </div>
-        <div className="hero-depth" data-cursor="View">
+        <div className="hero-depth">
           <div className="hero-halo" />
           <div className="hero-orbit orbit-one" />
           <div className="hero-orbit orbit-two" />
@@ -425,7 +405,7 @@ export function ConnectionMap() {
     >
       <div className="section-heading">
         <h2>{homepage.sections[0].title}</h2>
-        <div className="homepage-flow-copy">{homepage.sections[0].paragraphs.map(text => <p key={text}>{text}</p>)}<TextLink href="#modules">See the core modules</TextLink></div>
+        <div className="homepage-flow-copy">{homepage.sections[0].paragraphs.map(text => <p key={text}>{text.includes("Student Information System") ? <>{text.split("Student Information System")[0]}<Link className="homepage-context-link" href="/student-information-system/">Student Information System</Link>{text.split("Student Information System")[1]}</> : text}</p>)}<TextLink href="#modules">See the core modules</TextLink></div>
       </div>
       <div ref={mapRef} className={`connection-map connection-step-${active}`}>
         <svg
@@ -1026,6 +1006,7 @@ export function ModuleEcosystem() {
             </span>
             <h3>{m.heading}</h3>
             {m.paragraphs.map(text => <p key={text}>{text}</p>)}
+            {i === 0 && <TextLink href="/features/admission-management-software/">Explore admission management software</TextLink>}
             <div className="module-feature-list">
               {m.features.map((label) => (
                 <span key={label}>
@@ -1263,7 +1244,9 @@ export function HumanControlledAI() {
               <div className="assistant-draft">
                 <span className="draft-tag">ILLUSTRATIVE OUTPUT</span>
                 <h3>{homepage.sections[2].cards[i].title}</h3>
-                <p>{homepage.sections[2].cards[i].paragraphs[0]}</p><div className="automation-example"><strong>{automationExamples[i].output}</strong>{i === 0 ? <table className="automation-timetable"><caption className="sr-only">Illustrative weekly timetable for Class 6A</caption><thead><tr><th scope="col">Period</th><th scope="col">Subject</th><th scope="col">Teacher</th></tr></thead><tbody><tr><td>Mon 09:00</td><td>Mathematics</td><td>Ms Rao</td></tr><tr><td>Mon 10:00</td><td>Science</td><td>Mr Shah</td></tr><tr><td>Mon 11:30</td><td>English</td><td>Ms Sen</td></tr></tbody></table> : <p>{automationExamples[i].detail}</p>}</div>
+                <p>{homepage.sections[2].cards[i].paragraphs[0]}</p>
+                {i === 0 && <TextLink href="/features/school-timetable-software/">Explore school timetable software</TextLink>}
+                <div className="automation-example"><strong>{automationExamples[i].output}</strong>{i === 0 ? <table className="automation-timetable"><caption className="sr-only">Illustrative weekly timetable for Class 6A</caption><thead><tr><th scope="col">Period</th><th scope="col">Subject</th><th scope="col">Teacher</th></tr></thead><tbody><tr><td>Mon 09:00</td><td>Mathematics</td><td>Ms Rao</td></tr><tr><td>Mon 10:00</td><td>Science</td><td>Mr Shah</td></tr><tr><td>Mon 11:30</td><td>English</td><td>Ms Sen</td></tr></tbody></table> : <p>{automationExamples[i].detail}</p>}</div>
                   <div className="ai-checks">
                     {automationExamples[i].checks.map(
                       (x) => (
@@ -1300,7 +1283,7 @@ export function HumanControlledAI() {
 export function SchoolDemo() {
   return (
     <section className="school-demo section wrap">
-      <div className="demo-devices" data-cursor="View">
+      <div className="demo-devices">
         <div className="demo-tablet">
           <span>TEACHER EXPERIENCE</span>
           <div>
@@ -1389,7 +1372,6 @@ export function EditorialResources() {
               href={`/resources/${r.slug}`}
               className="editorial-card"
               key={r.slug}
-              data-cursor="Explore"
             >
               <div className="editorial-image">
                 <img

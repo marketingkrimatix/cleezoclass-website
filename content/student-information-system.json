@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "title": "Student Information System for K–12 Schools | Cleezo Class",
+    "description": "Cleezo Class is a student information system for K–12 schools. Connect admissions, student records, attendance, academics, fees, report cards and parent access."
+  },
+  "hero": {
+    "eyebrow": "One connected record for every student",
+    "title": "Student Information System for K–12 Schools",
+    "description": "Manage the student journey from admission enquiry to enrolment, attendance, academics, fee status, report cards and parent updates. Cleezo Class gives school teams one role-based student information system instead of separate records across departments.",
+    "primary": "Request a Demo",
+    "secondary": "Explore School ERP Software",
+    "strip": "Admissions to enrolment · Academics and attendance · Fee status and parent access · Multi-branch records"
+  },
+  "sections": [
+    {
+      "title": "What is a student information system?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A **student information system (SIS)** brings together the student records a school uses for admissions, attendance, academics, fees and parent communication. It gives different teams one connected source of information instead of asking them to maintain separate versions of the same student record."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a school, a student information system is not only a database. It should help the front desk, accounts team, administrators, teachers, parents and students work from the information relevant to them."
+        }
+      ]
+    },
+    {
+      "title": "One student record across the school day",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When student information lives in spreadsheets, paper files and unrelated tools, teams spend time finding the latest details, matching records and re-entering information. Cleezo connects the student record to the workflows that follow it."
+        },
+        {
+          "type": "ordered",
+          "items": [
+            "An admissions team captures an enquiry and records counselling or assessment outcomes.",
+            "An accepted applicant is converted into a student record without re-entering the same details.",
+            "Accounts apply the right fee structure and track payments or dues.",
+            "Administrators and teachers use the record for attendance, academics, examinations and report cards.",
+            "Parents and students can view relevant updates, fee status and digital report cards."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This connected workflow is part of Cleezo’s broader [school ERP software](/school-erp-software/) platform. Explore our [school admission system](/features/admission-management-software/) to see how enquiries become enrolled student records."
+        }
+      ]
+    },
+    {
+      "title": "Student information your teams can manage in one system",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Admissions and enrolment records"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capture walk-in enquiries, QR registrations and Excel lead imports. Give applicants tracking numbers, record entrance-test and counselling outcomes, follow up through the school’s paired WhatsApp workflow, and convert accepted applicants into student records."
+        },
+        {
+          "type": "heading",
+          "text": "Student profiles and school directories"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maintain student records that connect enrolment with attendance, academic progress, fee status and report cards. For multi-campus institutions, central teams can manage master data, bulk Excel imports and institution-wide student directories through the centralisation workspace."
+        },
+        {
+          "type": "heading",
+          "text": "Attendance and daily school records"
+        },
+        {
+          "type": "paragraph",
+          "text": "Synchronise student attendance from supported networked biometric or RFID devices. Administrators can review attendance exceptions, while teachers and parents work with the student information relevant to their role."
+        },
+        {
+          "type": "heading",
+          "text": "Academic progress and report cards"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manage examinations, seating arrangements, invigilator schedules and hall tickets. Cleezo supports six configurable report-card templates with mark breakdowns, attendance percentages, charts and multi-term performance trends."
+        },
+        {
+          "type": "heading",
+          "text": "Fees and account visibility"
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect student records with class-wise fee structures, payments by cash, UPI, cheque or bank transfer, QR-verifiable receipts, approved concessions, dues and student passbooks."
+        },
+        {
+          "type": "heading",
+          "text": "Parent and student access"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parents and students can access fee status, digital report cards and event updates. Schools can pair their official WhatsApp number to send fee receipts, attendance alerts and approved communications."
+        },
+        {
+          "type": "cta",
+          "text": "See your student workflow in Cleezo"
+        }
+      ]
+    },
+    {
+      "title": "Student management for every school team",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The same student record supports different work without giving every user the same view:"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Team",
+              "Student information and workflows"
+            ],
+            [
+              "Front desk and admissions",
+              "Enquiries, counselling, assessments, follow-ups and enrolment conversion"
+            ],
+            [
+              "Accounts",
+              "Fee structures, collections, receipts, dues and student passbooks"
+            ],
+            [
+              "Administration",
+              "Student records, attendance exceptions, academics, examinations and operations"
+            ],
+            [
+              "Teachers",
+              "Timetables, assessments, class duties and student remarks"
+            ],
+            [
+              "Parents and students",
+              "Fee status, digital report cards and school updates"
+            ],
+            [
+              "Central teams",
+              "Campus setup, master data and multi-branch student directories"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Move student records into a connected system with a clear plan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before importing records, assign responsibility for each dataset, check the required fields, remove duplicate entries and agree on validation steps with your implementation team."
+        },
+        {
+          "type": "cta",
+          "text": "Discuss your student-record migration"
+        }
+      ]
+    },
+    {
+      "title": "Built for K–12 schools, academies and school groups",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cleezo supports private K–12 schools, academies, educational trusts and multi-branch school groups, including CBSE, ICSE, SSC and State Board institutions."
+        },
+        {
+          "type": "paragraph",
+          "text": "For school groups, central teams can maintain institution-wide master data and student directories, while campus teams work with the admissions, accounts, academics and parent workflows relevant to their daily responsibilities."
+        }
+      ]
+    },
+    {
+      "title": "How to evaluate a student information system",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before selecting a student information system, ask these practical questions:"
+        },
+        {
+          "type": "ordered",
+          "items": [
+            "Can the system connect admission records to enrolled student records without re-entering information?",
+            "Which teams need access to student information, and which workflows should each team manage?",
+            "Which existing student, staff and lead records need to be imported?",
+            "How will attendance information arrive from the school’s current biometric or RFID devices?",
+            "Can the school connect student records with fees, report cards and parent communications?",
+            "If the school has multiple campuses, what should be centrally managed and what should each branch manage?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Before booking a demo, discuss these requirements with your school’s academic, finance, admissions and administrative teams."
+        }
+      ]
+    },
+    {
+      "title": "Student information system FAQs",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What is the difference between a student information system and a student management system?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The terms are often used interchangeably. Both generally refer to software for maintaining and using student records. When evaluating options, focus on the workflows you need: admissions, attendance, academics, fees, report cards, parent communication and role-based access."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo Class brings these student-focused workflows together within its broader [school management software](/)."
+        },
+        {
+          "type": "heading",
+          "text": "How does a student information system relate to school ERP software?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A student information system focuses on student records and related workflows, including enrolment, attendance, academic progress, fees and parent access. School ERP software covers broader institutional operations, including HR, payroll, inventory and campus administration. Cleezo Class connects these capabilities within one platform."
+        },
+        {
+          "type": "heading",
+          "text": "Can Cleezo convert admission enquiries into student records?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo supports applicant tracking, entrance-test and counselling outcomes, and conversion of an accepted enquiry into an enrolled student record without re-entering the same details."
+        },
+        {
+          "type": "heading",
+          "text": "Can we import existing student records?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo supports Excel import and export for student, staff and lead data. Your implementation plan should confirm the fields, source files, data cleaning and validation required for the migration."
+        },
+        {
+          "type": "heading",
+          "text": "Can a student information system include fee and attendance records?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo connects the student record with class-wise fee structures, payments, dues, receipts, attendance and academic workflows. Schools can also synchronise attendance from supported networked biometric or RFID devices."
+        },
+        {
+          "type": "heading",
+          "text": "Can parents access student information?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parents and students can access fee status, digital report cards and event updates. The school can also configure its official paired WhatsApp workflow for relevant fee receipts, attendance alerts and approved communications."
+        },
+        {
+          "type": "heading",
+          "text": "Can Cleezo support multiple campuses?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Cleezo includes a centralisation workspace for campus setup, master data, bulk Excel imports, student and staff directories and institutional database backups."
+        },
+        {
+          "type": "heading",
+          "text": "Which schools can use Cleezo Class?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo supports private K–12 schools, academies, educational trusts and multi-branch school groups, including CBSE, ICSE, SSC and State Board institutions."
+        },
+        {
+          "type": "heading",
+          "text": "How is Cleezo priced?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleezo plans are selected according to the number of students and the modules a school needs. Request a demo to review the appropriate configuration and commercial proposal."
+        }
+      ]
+    },
+    {
+      "title": "Give every team a clearer view of the student journey",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "See how Cleezo can connect your admissions, student records, fees, attendance, academics and parent updates in one student information system."
+        },
+        {
+          "type": "cta",
+          "text": "Request a Demo"
+        },
+        {
+          "type": "cta",
+          "text": "Log In"
+        }
+      ]
+    }
+  ]
+}
