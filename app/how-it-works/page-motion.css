@@ -1,0 +1,58 @@
+/* Motion only: no sizing, spacing, colour tokens or layout changes. */
+.how-page {
+  --how-motion-fast: 220ms;
+  --how-motion-ease: cubic-bezier(.22, 1, .36, 1);
+}
+.how-page .button {
+  transition: transform var(--how-motion-fast) var(--how-motion-ease), box-shadow var(--how-motion-fast), background-color var(--how-motion-fast), border-color var(--how-motion-fast), color var(--how-motion-fast);
+}
+.how-page .button:active { transform: translateY(0) scale(.985); box-shadow: none; }
+.how-page .button:focus-visible { outline: 3px solid var(--orange); outline-offset: 5px; }
+.how-page .how-section-conversation li,
+.how-page .how-section-demo li,
+.how-page .how-table tbody tr,
+.how-page .refined-preparation tbody tr,
+.how-page .school-showcase-row {
+  transition: background-color var(--how-motion-fast), border-color var(--how-motion-fast), transform var(--how-motion-fast) var(--how-motion-ease);
+}
+.how-page .how-list-icon, .how-page .how-table-icon,
+.how-page .refined-prep-icon, .how-page .school-showcase-icon {
+  transition: background-color var(--how-motion-fast), border-color var(--how-motion-fast), color var(--how-motion-fast), transform var(--how-motion-fast) var(--how-motion-ease);
+}
+@media (hover: hover) and (pointer: fine) {
+  .how-page .how-section-conversation li:hover { background: #f3f8ef; }
+  .how-page .how-section-conversation li:hover .how-list-icon { transform: scale(1.05); }
+  .how-page .how-section-demo li:hover { transform: translateY(-4px); }
+  .how-page .how-section-demo li:hover .how-list-icon { transform: scale(1.035); }
+  .how-page .how-table tbody tr:hover .how-table-icon,
+  .how-page .refined-preparation tbody tr:hover .refined-prep-icon,
+  .how-page .school-showcase-row:hover .school-showcase-icon { background: #e1efdf; border-color: #bcd2c2; }
+}
+.how-page .refined-faq summary > svg { transition: transform 250ms var(--how-motion-ease); }
+@supports (interpolate-size: allow-keywords) {
+  .how-page .refined-faq::details-content {
+    opacity: 0;
+    transition: block-size 250ms var(--how-motion-ease), opacity 200ms ease, content-visibility 250ms allow-discrete;
+  }
+  .how-page .refined-faq[open]::details-content { opacity: 1; }
+}
+body:has(.how-page) .site-header .desktop-nav a {
+  transition: color 220ms ease, translate 220ms var(--how-motion-ease, ease-out);
+}
+body:has(.how-page) .site-header a:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
+.motion-paused .how-page *, .motion-paused .how-page *::before,
+.motion-paused .how-page *::after, .motion-paused .how-page .refined-faq::details-content {
+  animation: none !important; transition: none !important;
+}
+.motion-paused .how-page .button:hover, .motion-paused .how-page .button:active,
+.motion-paused .how-page .how-section-demo li:hover,
+.motion-paused .how-page li:hover .how-list-icon { transform: none; }
+body:has(.how-page) .motion-paused .site-header .desktop-nav a { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  .how-page *, .how-page *::before, .how-page *::after, .how-page .refined-faq::details-content {
+    animation: none !important; transition: none !important;
+  }
+  .how-page .button:hover, .how-page .button:active,
+  .how-page .how-section-demo li:hover, .how-page li:hover .how-list-icon { transform: none; }
+  body:has(.how-page) .site-header .desktop-nav a { transition: none; }
+}

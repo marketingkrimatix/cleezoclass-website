@@ -94,7 +94,7 @@ export default function SchoolERPPage() {
     {sections.map((section, index) => <section className={`erp-section erp-section-${ids[index]}`} id={ids[index]} key={section.title} aria-labelledby={`${ids[index]}-title`}>
       <div className="wrap">
         <h2 id={`${ids[index]}-title`}>{section.title}</h2>
-        {index === 2 || index === 6 ? <FeatureCards section={section} previews={index === 2} /> : index === 10 ? <FAQs items={groups(section).cards.map(card => [card.title, <Inline key={card.title} text={card.blocks.map(block => block.text).join('\n\n')} />])} /> : <div className="erp-section-body"><Blocks blocks={section.blocks} /></div>}
+        {index === 2 || index === 6 ? <FeatureCards section={section} previews={index === 2} /> : index === 10 ? <FAQs items={groups(section).cards.map(card => [card.title, <Inline key={card.title} text={card.blocks.map(block => block.text).join('\n\n')} />])} /> : <div className="erp-section-body"><Blocks blocks={section.blocks} />{index === 9 && <p><Link href="/how-it-works/">Explore the setup process</Link></p>}</div>}
       </div>
     </section>)}
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs).replace(/</g, '\\u003c') }} />
