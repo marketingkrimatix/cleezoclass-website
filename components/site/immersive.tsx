@@ -238,7 +238,7 @@ export function ExperienceHero() {
           <p>{homepage.hero.description}</p>
           <div className="hero-actions">
             <Action>{homepage.hero.primary}</Action>
-            <Action href="#connections" secondary>{homepage.hero.secondary}</Action>
+            <Action href="/how-it-works/" secondary>{homepage.hero.secondary}</Action>
           </div>
           <a className="hero-scroll" href="#connections"><span><ArrowDown size={16}/></span>From enquiry to report card</a>
         </div>
@@ -405,7 +405,7 @@ export function ConnectionMap() {
     >
       <div className="section-heading">
         <h2>{homepage.sections[0].title}</h2>
-        <div className="homepage-flow-copy">{homepage.sections[0].paragraphs.map(text => <p key={text}>{text.includes("Student Information System") ? <>{text.split("Student Information System")[0]}<Link className="homepage-context-link" href="/student-information-system/">Student Information System</Link>{text.split("Student Information System")[1]}</> : text}</p>)}<TextLink href="#modules">See the core modules</TextLink></div>
+        <div className="homepage-flow-copy">{homepage.sections[0].paragraphs.map(text => <p key={text}>{text.split(/(school ERP software|Student Information System)/g).map((part, index) => part === 'school ERP software' ? <Link key={index} className="homepage-context-link" href="/school-erp-software/">{part}</Link> : part === 'Student Information System' ? <Link key={index} className="homepage-context-link" href="/student-information-system/">{part}</Link> : part)}</p>)}<p>Finance teams can manage class-wise fee heads, concessions, recorded payments, outstanding dues and receipts with Cleezo?s <Link className="homepage-context-link" href="/features/school-fee-management-software/">school fee management software</Link>.</p><TextLink href="#modules">See the core modules</TextLink></div>
       </div>
       <div ref={mapRef} className={`connection-map connection-step-${active}`}>
         <svg

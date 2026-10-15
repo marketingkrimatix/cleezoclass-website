@@ -18,6 +18,7 @@ export function SetupSection() {
         <h2 id="school-setup-title"><span className="sr-only">3. </span>{section.title.replace(/^3\. /, '')}</h2>
         {paragraphs.slice(0, 2).map(block => <p key={block.text}>{block.text}</p>)}
         <p className="refined-setup-note">{paragraphs[2].text}</p>
+        <p>Use the <Link href="/resources/school-management-evaluation-checklist/">evaluation checklist</Link> to prepare your school&apos;s workflows, records and questions before a demo.</p>
       </div>
       <div className="refined-preparation">
         <div className="refined-preparation-heading"><span className="refined-panel-mark" aria-hidden="true"><Building2 size={22} /></span><h3>{section.blocks.find(block => block.type === 'heading')!.text}</h3><span className="refined-panel-dots" aria-hidden="true"><i /><i /><i /></span></div>
