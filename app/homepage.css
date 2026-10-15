@@ -44,6 +44,11 @@
 
 
 .homepage-copy .hero-editorial h1 { font-size: clamp(2.5rem, 4.25vw, 4.3rem); line-height: 1.09; }
+.homepage-copy .hero-editorial { min-width: 0; }
+.homepage-copy .hero-editorial h1 { height: auto; max-height: none; overflow: visible; padding-bottom: .12em; }
+/* Let wrapped headline lines occupy their full height without negative margins. */
+.homepage-copy .hero-editorial .headline-mask { height: auto; max-height: none; overflow: visible; padding-bottom: .12em; margin-bottom: 0; }
+.homepage-copy .hero-editorial h1 + p { margin-top: 32px; }
 .homepage-copy .hero-editorial > p:not(.eyebrow) { font-size: 1rem; max-width: 610px; line-height: 1.75; }
 .homepage-copy .hero-actions { flex-wrap: wrap; }
 .homepage-copy .hero-foot { padding-block: 22px; }

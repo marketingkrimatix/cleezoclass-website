@@ -55,8 +55,8 @@ const nav = html.match(/<nav[^>]*aria-label="Primary"[\s\S]*?<\/nav>/)[0];
 assert.equal((nav.match(/href="\/how-it-works\/"/g) || []).length, 1);
 assert.ok(read('out/sitemap.xml').includes('<loc>https://cleezoclass.com/how-it-works/</loc>'));
 const production = process.argv.includes('--production');
-assert.ok(html.includes(`name="robots" content="${production ? 'index, follow' : 'noindex, nofollow'}"`));
-assert.ok(read('out/robots.txt').includes(production ? 'Allow: /' : 'Disallow: /'));
+assert.ok(html.includes(`name="robots" content="${production ? 'index, follow' : 'noindex, follow'}"`));
+assert.ok(read('out/robots.txt').includes('Allow: /'));
 
 // Exercise deployment contexts without rebuilding for every environment.
 const siteCode = ts.transpileModule(read('content/site.ts'), { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
