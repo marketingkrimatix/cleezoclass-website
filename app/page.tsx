@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import homepage from '@/content/homepage.json';
 import { siteOrigin } from '@/content/site';
 import './homepage.css';
+import { StudentSpotlight, SchoolVoices } from '@/components/site/home-brand-sections';
+import schoolTestimonials from '@/content/school-testimonials.json';
 import {
   ExperienceHero,
   ConnectionMap,
@@ -36,6 +38,7 @@ export default function Home() {
     <main id="main" className="connected-home homepage-copy">
       <ExperienceHero />
       <ConnectionMap />
+      <StudentSpotlight />
       <PlatformPreview />
       <ConnectedPathway />
       <GatherWorkspace />
@@ -48,6 +51,7 @@ export default function Home() {
       <SchoolDemo />
       <Adoption home />
       <EditorialResources />
+      <SchoolVoices testimonials={schoolTestimonials} />
       <HomeFAQs />
       <Closing home />
     </main>
