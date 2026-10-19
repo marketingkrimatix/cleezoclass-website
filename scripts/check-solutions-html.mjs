@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 
 // Check the deployed artifacts, not the dev server: a case-only alias previously
 // overwrote this page on Windows and repeatedly redirected to itself.

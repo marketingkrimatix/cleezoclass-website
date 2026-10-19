@@ -101,18 +101,9 @@
         {
           "type": "table",
           "rows": [
-            [
-              "Area",
-              "What to prepare"
-            ],
-            [
-              "Institution",
-              "School and campus structure, relevant teams and role access"
-            ],
-            [
-              "Admissions",
-              "Approved enquiry and applicant data where imports are required"
-            ],
+            ["Area", "What to prepare"],
+            ["Institution", "School and campus structure, relevant teams and role access"],
+            ["Admissions", "Approved enquiry and applicant data where imports are required"],
             [
               "Student records",
               "Existing student information and the fields needed for the school workflow"
@@ -143,10 +134,7 @@
         {
           "type": "table",
           "rows": [
-            [
-              "Team",
-              "Relevant workflow examples"
-            ],
+            ["Team", "Relevant workflow examples"],
             [
               "Admissions",
               "Enquiries, registration, counselling, enrolment and authorised follow-up"
@@ -155,18 +143,12 @@
               "Academic teams",
               "Timetables, homework, assessments, report cards and student progress workflows"
             ],
-            [
-              "Accounts",
-              "Fee records, concessions, payments, receipts and finance reporting"
-            ],
+            ["Accounts", "Fee records, concessions, payments, receipts and finance reporting"],
             [
               "Administration",
               "Student and school operations, attendance-related workflows and role access"
             ],
-            [
-              "School leaders",
-              "Connected academic, operational and financial views"
-            ],
+            ["School leaders", "Connected academic, operational and financial views"],
             [
               "Parents and students",
               "The school information and communication the institution makes available"

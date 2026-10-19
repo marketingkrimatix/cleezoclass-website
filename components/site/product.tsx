@@ -1,12 +1,284 @@
 'use client';
 import { homeViews } from '@/content/home-experience';
-import {CalendarDays,BookOpen,Wallet,MessageSquare,Check,ArrowUpRight,Users,LayoutDashboard,Clock3} from 'lucide-react';
-const views=[
- {title:'A good day starts here.',label:'School overview',meta:'Monday, 21 September',stat:'28 / 30',statLabel:'Morning attendance',second:'06',secondLabel:'Classes on the schedule',columns:['Today’s lesson','Time','Status'],rows:[['Mathematics','09:00','Complete'],['Science · Our environment','10:30','Up next'],['English · Reading','11:30','Scheduled'],['Learning review','16:00','Scheduled']],note:'One clear starting point',body:'Attendance, lessons and the work around them, in view.',status:'Ready for the first bell'},
- {title:'Start with who’s here.',label:'Attendance',meta:'Class 6A · Morning register',stat:'28 / 30',statLabel:'Students present',second:'02',secondLabel:'Absences to follow up',columns:['Student','Class','Morning status'],rows:[['Aarav S.','6A','Present'],['Meera K.','6A','Present'],['Riya P.','6A','Present'],['Kabir A.','6A','Absent']],note:'The register starts a conversation',body:'Review exceptions and confirm who should receive a follow-up.',status:'Register reviewed'},
- {title:'Let the learning flow.',label:'Learning',meta:'Class 6A · Science',stat:'24 / 30',statLabel:'Submissions to review',second:'04',secondLabel:'Tasks this week',columns:['Class roster','Learning task','Progress'],rows:[['Aarav S.','Plant observation','Submitted'],['Meera K.','Plant observation','Submitted'],['Riya P.','Plant observation','In progress'],['Kabir A.','Plant observation','Assigned']],note:'Observe a plant. Tell its story.',body:'Record three observations, add a labelled sketch and bring one question to class.',status:'Ready for teacher feedback'},
- {title:'A little closer to their day.',label:'Communication',meta:'Class 6A · Parent experience',stat:'Class 6A',statLabel:'Selected audience',second:'Today',secondLabel:'Classroom update',columns:['School update','For','Status'],rows:[['Attendance','Class 6A','Available'],['Plant observation','Science','Assigned'],['Classroom notice','Families','Reviewed'],['Transport information','School route','Check update']],note:'A little window into today',body:'Today, Class 6 explored plants and their surroundings. Find the observation task in Learning.',status:'Review recipients before sharing'},
- {title:'Keep the details in view.',label:'Operations',meta:'School office · Daily coordination',stat:'03',statLabel:'Records in focus',second:'13:00',secondLabel:'Afternoon coordination',columns:['School record','Owner','Next step'],rows:[['Teaching timetable','Academic office','Review'],['Fee receipt','Finance office','Recorded'],['Assessment schedule','Exam coordinator','Prepared'],['Library circulation','Library team','Review']],note:'A clear handover matters',body:'Confirm the record, check the context, and give the next colleague a useful starting point.',status:'Follow-ups in view'},
- {title:'Tomorrow, better prepared.',label:'Planning',meta:'After school · Review & preparation',stat:'Next day',statLabel:'Teaching preparation',second:'Review',secondLabel:'People make the decisions',columns:['Prepare for tomorrow','Context','Progress'],rows:[['Attendance follow-up','Class 6A','Reviewed'],['Science feedback','Student work','In progress'],['Teaching timetable','Staff availability','Review'],['Homework suggestion','Learning goal','Draft']],note:'The day informs the next',body:'Use today’s records to frame tomorrow’s questions. Review any AI suggestion before use.',status:'Ready for a considered next step'}
+import {
+  CalendarDays,
+  BookOpen,
+  Wallet,
+  MessageSquare,
+  Check,
+  ArrowUpRight,
+  Users,
+  LayoutDashboard,
+  Clock3,
+} from 'lucide-react';
+const views = [
+  {
+    title: 'A good day starts here.',
+    label: 'School overview',
+    meta: 'Monday, 21 September',
+    stat: '28 / 30',
+    statLabel: 'Morning attendance',
+    second: '06',
+    secondLabel: 'Classes on the schedule',
+    columns: ['Today’s lesson', 'Time', 'Status'],
+    rows: [
+      ['Mathematics', '09:00', 'Complete'],
+      ['Science · Our environment', '10:30', 'Up next'],
+      ['English · Reading', '11:30', 'Scheduled'],
+      ['Learning review', '16:00', 'Scheduled'],
+    ],
+    note: 'One clear starting point',
+    body: 'Attendance, lessons and the work around them, in view.',
+    status: 'Ready for the first bell',
+  },
+  {
+    title: 'Start with who’s here.',
+    label: 'Attendance',
+    meta: 'Class 6A · Morning register',
+    stat: '28 / 30',
+    statLabel: 'Students present',
+    second: '02',
+    secondLabel: 'Absences to follow up',
+    columns: ['Student', 'Class', 'Morning status'],
+    rows: [
+      ['Aarav S.', '6A', 'Present'],
+      ['Meera K.', '6A', 'Present'],
+      ['Riya P.', '6A', 'Present'],
+      ['Kabir A.', '6A', 'Absent'],
+    ],
+    note: 'The register starts a conversation',
+    body: 'Review exceptions and confirm who should receive a follow-up.',
+    status: 'Register reviewed',
+  },
+  {
+    title: 'Let the learning flow.',
+    label: 'Learning',
+    meta: 'Class 6A · Science',
+    stat: '24 / 30',
+    statLabel: 'Submissions to review',
+    second: '04',
+    secondLabel: 'Tasks this week',
+    columns: ['Class roster', 'Learning task', 'Progress'],
+    rows: [
+      ['Aarav S.', 'Plant observation', 'Submitted'],
+      ['Meera K.', 'Plant observation', 'Submitted'],
+      ['Riya P.', 'Plant observation', 'In progress'],
+      ['Kabir A.', 'Plant observation', 'Assigned'],
+    ],
+    note: 'Observe a plant. Tell its story.',
+    body: 'Record three observations, add a labelled sketch and bring one question to class.',
+    status: 'Ready for teacher feedback',
+  },
+  {
+    title: 'A little closer to their day.',
+    label: 'Communication',
+    meta: 'Class 6A · Parent experience',
+    stat: 'Class 6A',
+    statLabel: 'Selected audience',
+    second: 'Today',
+    secondLabel: 'Classroom update',
+    columns: ['School update', 'For', 'Status'],
+    rows: [
+      ['Attendance', 'Class 6A', 'Available'],
+      ['Plant observation', 'Science', 'Assigned'],
+      ['Classroom notice', 'Families', 'Reviewed'],
+      ['Transport information', 'School route', 'Check update'],
+    ],
+    note: 'A little window into today',
+    body: 'Today, Class 6 explored plants and their surroundings. Find the observation task in Learning.',
+    status: 'Review recipients before sharing',
+  },
+  {
+    title: 'Keep the details in view.',
+    label: 'Operations',
+    meta: 'School office · Daily coordination',
+    stat: '03',
+    statLabel: 'Records in focus',
+    second: '13:00',
+    secondLabel: 'Afternoon coordination',
+    columns: ['School record', 'Owner', 'Next step'],
+    rows: [
+      ['Teaching timetable', 'Academic office', 'Review'],
+      ['Fee receipt', 'Finance office', 'Recorded'],
+      ['Assessment schedule', 'Exam coordinator', 'Prepared'],
+      ['Library circulation', 'Library team', 'Review'],
+    ],
+    note: 'A clear handover matters',
+    body: 'Confirm the record, check the context, and give the next colleague a useful starting point.',
+    status: 'Follow-ups in view',
+  },
+  {
+    title: 'Tomorrow, better prepared.',
+    label: 'Planning',
+    meta: 'After school · Review & preparation',
+    stat: 'Next day',
+    statLabel: 'Teaching preparation',
+    second: 'Review',
+    secondLabel: 'People make the decisions',
+    columns: ['Prepare for tomorrow', 'Context', 'Progress'],
+    rows: [
+      ['Attendance follow-up', 'Class 6A', 'Reviewed'],
+      ['Science feedback', 'Student work', 'In progress'],
+      ['Teaching timetable', 'Staff availability', 'Review'],
+      ['Homework suggestion', 'Learning goal', 'Draft'],
+    ],
+    note: 'The day informs the next',
+    body: 'Use today’s records to frame tomorrow’s questions. Review any AI suggestion before use.',
+    status: 'Ready for a considered next step',
+  },
 ];
-export function ProductCanvas({mode=0,compact=false,homepage=false}:{mode?:number,interactive?:boolean,compact?:boolean,homepage?:boolean}){const availableViews=homepage?homeViews:views,n=Math.max(0,Math.min(mode,availableViews.length-1)),v=availableViews[n];return <div className={`school-workspace view-${n} ${compact?'workspace-compact':''}`} data-view={v.label}><div className="workspace-chrome"><span><span className="workspace-square"/>Cleezo Class <span className="chrome-divider">/</span> School workspace</span><span className="illustration-label">Illustrative preview · sample data</span></div><div className="workspace-shell"><aside className="workspace-nav" aria-label="Illustrated workspace sections"><div className="workspace-school"><BookOpen size={18}/><span>Your school<small>A connected day</small></span></div>{[[LayoutDashboard,homepage?'Admissions':'Overview'],[CalendarDays,'Attendance'],[BookOpen,homepage?'Academics':'Learning'],[MessageSquare,'Communication'],[Wallet,homepage?'Finance':'Operations'],...(homepage?[[Users,'Centralisation'],[Clock3,'Timetable']]:[])].map(([Icon,label],i)=>{const I=Icon as typeof BookOpen;return <span key={i} className={n===i?'workspace-selected':''}><I size={17}/><span>{label as string}</span></span>})}<span className="workspace-team"><Users size={17}/><span>School team</span></span></aside><div className="workspace-content" key={n}><div className="workspace-heading"><div><span className="mono">{v.meta}</span><h3>{v.title}</h3></div><span className="workspace-avatar">SC</span></div><div className="workspace-metrics"><div><span>{v.statLabel}</span><strong>{v.stat}</strong><div className="metric-rule"><i style={{transform:`scaleX(${n===2?.8:n===1?.93:.65})`}}/></div></div><div><span>{v.secondLabel}</span><strong>{v.second}</strong><span className="metric-detail"><Clock3 size={13}/> The school day, connected</span></div></div><div className="workspace-details"><div className="workspace-records"><div className="records-heading"><h4>{v.label}</h4><span>School day / 01</span></div><div className="workspace-table" role="table" aria-label={`${v.label} sample records`}><div className="workspace-row table-heading" role="row">{v.columns.map((c,i)=><span role="columnheader" key={i}>{c}</span>)}</div>{v.rows.map((r,i)=><div className={`workspace-row ${i===n%4?'row-focus':''}`} role="row" key={i} style={{'--row':i} as React.CSSProperties}><span role="cell"><i className="record-mark">{n===1||n===2?r[0][0]:String(i+1).padStart(2,'0')}</i>{r[0]}</span><span role="cell">{r[1]}</span><span role="cell"><span className={`record-status ${['Absent','Review','In progress','Draft'].includes(r[2])?'needs-review':''}`}>{['Present','Submitted','Recorded','Complete','Reviewed'].includes(r[2])&&<Check size={12}/>} {r[2]}</span></span></div>)}</div></div><aside className="workspace-support"><span className="mono">CONNECTED CONTEXT</span><BookOpen size={23}/><h4>{v.note}</h4><p>{v.body}</p><span className="support-foot"><ArrowUpRight size={16}/> Keep the next person informed</span></aside></div><div className="workspace-trace"><span><Check size={15}/>{v.status}</span><span className="trace-dots" aria-hidden="true">{[0,1,2,3,4].map(i=><i key={i} className={i<=n?'complete':''}/>)}</span></div></div></div></div>}
+export function ProductCanvas({
+  mode = 0,
+  compact = false,
+  homepage = false,
+}: {
+  mode?: number;
+  interactive?: boolean;
+  compact?: boolean;
+  homepage?: boolean;
+}) {
+  const availableViews = homepage ? homeViews : views,
+    n = Math.max(0, Math.min(mode, availableViews.length - 1)),
+    v = availableViews[n];
+  return (
+    <div
+      className={`school-workspace view-${n} ${compact ? 'workspace-compact' : ''}`}
+      data-view={v.label}
+    >
+      <div className="workspace-chrome">
+        <span>
+          <span className="workspace-square" />
+          Cleezo Class <span className="chrome-divider">/</span> School workspace
+        </span>
+        <span className="illustration-label">Illustrative preview · sample data</span>
+      </div>
+      <div className="workspace-shell">
+        <aside className="workspace-nav" aria-label="Illustrated workspace sections">
+          <div className="workspace-school">
+            <BookOpen size={18} />
+            <span>
+              Your school<small>A connected day</small>
+            </span>
+          </div>
+          {[
+            [LayoutDashboard, homepage ? 'Admissions' : 'Overview'],
+            [CalendarDays, 'Attendance'],
+            [BookOpen, homepage ? 'Academics' : 'Learning'],
+            [MessageSquare, 'Communication'],
+            [Wallet, homepage ? 'Finance' : 'Operations'],
+            ...(homepage
+              ? [
+                  [Users, 'Centralisation'],
+                  [Clock3, 'Timetable'],
+                ]
+              : []),
+          ].map(([Icon, label], i) => {
+            const I = Icon as typeof BookOpen;
+            return (
+              <span key={i} className={n === i ? 'workspace-selected' : ''}>
+                <I size={17} />
+                <span>{label as string}</span>
+              </span>
+            );
+          })}
+          <span className="workspace-team">
+            <Users size={17} />
+            <span>School team</span>
+          </span>
+        </aside>
+        <div className="workspace-content" key={n}>
+          <div className="workspace-heading">
+            <div>
+              <span className="mono">{v.meta}</span>
+              <h3>{v.title}</h3>
+            </div>
+            <span className="workspace-avatar">SC</span>
+          </div>
+          <div className="workspace-metrics">
+            <div>
+              <span>{v.statLabel}</span>
+              <strong>{v.stat}</strong>
+              <div className="metric-rule">
+                <i style={{ transform: `scaleX(${n === 2 ? 0.8 : n === 1 ? 0.93 : 0.65})` }} />
+              </div>
+            </div>
+            <div>
+              <span>{v.secondLabel}</span>
+              <strong>{v.second}</strong>
+              <span className="metric-detail">
+                <Clock3 size={13} /> The school day, connected
+              </span>
+            </div>
+          </div>
+          <div className="workspace-details">
+            <div className="workspace-records">
+              <div className="records-heading">
+                <h4>{v.label}</h4>
+                <span>School day / 01</span>
+              </div>
+              <div
+                className="workspace-table"
+                role="table"
+                aria-label={`${v.label} sample records`}
+              >
+                <div className="workspace-row table-heading" role="row">
+                  {v.columns.map((c, i) => (
+                    <span role="columnheader" key={i}>
+                      {c}
+                    </span>
+                  ))}
+                </div>
+                {v.rows.map((r, i) => (
+                  <div
+                    className={`workspace-row ${i === n % 4 ? 'row-focus' : ''}`}
+                    role="row"
+                    key={i}
+                    style={{ '--row': i } as React.CSSProperties}
+                  >
+                    <span role="cell">
+                      <i className="record-mark">
+                        {n === 1 || n === 2 ? r[0][0] : String(i + 1).padStart(2, '0')}
+                      </i>
+                      {r[0]}
+                    </span>
+                    <span role="cell">{r[1]}</span>
+                    <span role="cell">
+                      <span
+                        className={`record-status ${['Absent', 'Review', 'In progress', 'Draft'].includes(r[2]) ? 'needs-review' : ''}`}
+                      >
+                        {['Present', 'Submitted', 'Recorded', 'Complete', 'Reviewed'].includes(
+                          r[2],
+                        ) && <Check size={12} />}{' '}
+                        {r[2]}
+                      </span>
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <aside className="workspace-support">
+              <span className="mono">CONNECTED CONTEXT</span>
+              <BookOpen size={23} />
+              <h4>{v.note}</h4>
+              <p>{v.body}</p>
+              <span className="support-foot">
+                <ArrowUpRight size={16} /> Keep the next person informed
+              </span>
+            </aside>
+          </div>
+          <div className="workspace-trace">
+            <span>
+              <Check size={15} />
+              {v.status}
+            </span>
+            <span className="trace-dots" aria-hidden="true">
+              {[0, 1, 2, 3, 4].map((i) => (
+                <i key={i} className={i <= n ? 'complete' : ''} />
+              ))}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

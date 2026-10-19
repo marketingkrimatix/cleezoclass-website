@@ -165,10 +165,7 @@
         {
           "type": "table",
           "rows": [
-            [
-              "Central teams can manage",
-              "Campus teams can manage"
-            ],
+            ["Central teams can manage", "Campus teams can manage"],
             [
               "Campus setup and institution-wide master data",
               "Admissions and front-desk workflows"
@@ -181,10 +178,7 @@
               "Multi-branch visibility and database backups",
               "Academics, attendance, events and daily operations"
             ],
-            [
-              "Role account provisioning",
-              "Teacher, parent and student-facing tasks"
-            ]
+            ["Role account provisioning", "Teacher, parent and student-facing tasks"]
           ]
         },
         {

@@ -119,34 +119,19 @@
         {
           "type": "table",
           "rows": [
-            [
-              "Team",
-              "Student information and workflows"
-            ],
+            ["Team", "Student information and workflows"],
             [
               "Front desk and admissions",
               "Enquiries, counselling, assessments, follow-ups and enrolment conversion"
             ],
-            [
-              "Accounts",
-              "Fee structures, collections, receipts, dues and student passbooks"
-            ],
+            ["Accounts", "Fee structures, collections, receipts, dues and student passbooks"],
             [
               "Administration",
               "Student records, attendance exceptions, academics, examinations and operations"
             ],
-            [
-              "Teachers",
-              "Timetables, assessments, class duties and student remarks"
-            ],
-            [
-              "Parents and students",
-              "Fee status, digital report cards and school updates"
-            ],
-            [
-              "Central teams",
-              "Campus setup, master data and multi-branch student directories"
-            ]
+            ["Teachers", "Timetables, assessments, class duties and student remarks"],
+            ["Parents and students", "Fee status, digital report cards and school updates"],
+            ["Central teams", "Campus setup, master data and multi-branch student directories"]
           ]
         }
       ]

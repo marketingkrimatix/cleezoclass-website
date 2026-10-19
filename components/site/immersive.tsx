@@ -1,11 +1,11 @@
-"use client";
-import { useEffect, useRef, useState } from "react";
-import homepage from "@/content/homepage.json";
-import connectionStyles from "./connection-map.module.css";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+'use client';
+import { useEffect, useRef, useState } from 'react';
+import homepage from '@/content/homepage.json';
+import connectionStyles from './connection-map.module.css';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import {
   ArrowDown,
   ArrowRight,
@@ -29,13 +29,18 @@ import {
   Sparkles,
   Users,
   Wallet,
-} from "lucide-react";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Action, Eyebrow, TextLink } from "./ui";
-import { ProductCanvas } from "./product";
-import { useMotionDisabled } from "./motion";
-import { homeModules, homeRoles as roles, attendanceSteps, automationExamples } from "@/content/home-experience";
-import { resources } from "@/content/resources";
+} from 'lucide-react';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Action, Eyebrow, TextLink } from './ui';
+import { ProductCanvas } from './product';
+import { useMotionDisabled } from './motion';
+import {
+  homeModules,
+  homeRoles as roles,
+  attendanceSteps,
+  automationExamples,
+} from '@/content/home-experience';
+import { resources } from '@/content/resources';
 
 const icons = [
   CalendarDays,
@@ -48,7 +53,7 @@ const icons = [
   Heart,
   Library,
 ];
-const tabNames = ["Admissions", "Attendance", "Academics", "Communication"];
+const tabNames = ['Admissions', 'Attendance', 'Academics', 'Communication'];
 export function ImmersiveMotion() {
   const path = usePathname();
   const disabled = useMotionDisabled();
@@ -57,175 +62,166 @@ export function ImmersiveMotion() {
     if (disabled) return;
     const ctx = gsap.context(() => {
       const media = gsap.matchMedia();
-      media.add("(prefers-reduced-motion: no-preference)", () => {
-        if (path !== "/student-information-system" && path !== "/student-information-system/") gsap.to(".reading-progress", {
-          scaleX: 1,
-          ease: "none",
-          scrollTrigger: { start: 0, end: "max", scrub: true },
-        });
-        gsap.utils
-          .toArray<HTMLElement>("[data-reveal]")
-          .forEach((el, i) =>
-            gsap.fromTo(
-              el,
-              { y: i % 2 ? 36 : 0, x: i % 2 ? 0 : 24, opacity: 0.35 },
-              {
-                y: 0,
-                x: 0,
-                opacity: 1,
-                duration: 0.8,
-                ease: "power3.out",
-                scrollTrigger: { trigger: el, start: "top 90%", once: true },
-              },
-            ),
-          );
-        gsap.utils
-          .toArray<HTMLElement>(".workflow-stop")
-          .forEach((el) =>
-            ScrollTrigger.create({
-              trigger: el,
-              start: "top 65%",
-              onEnter: () => el.classList.add("reached"),
-              onLeaveBack: () => el.classList.remove("reached"),
-            }),
-          );
+      media.add('(prefers-reduced-motion: no-preference)', () => {
+        if (path !== '/student-information-system' && path !== '/student-information-system/')
+          gsap.to('.reading-progress', {
+            scaleX: 1,
+            ease: 'none',
+            scrollTrigger: { start: 0, end: 'max', scrub: true },
+          });
+        gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach((el, i) =>
+          gsap.fromTo(
+            el,
+            { y: i % 2 ? 36 : 0, x: i % 2 ? 0 : 24, opacity: 0.35 },
+            {
+              y: 0,
+              x: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: 'power3.out',
+              scrollTrigger: { trigger: el, start: 'top 90%', once: true },
+            },
+          ),
+        );
+        gsap.utils.toArray<HTMLElement>('.workflow-stop').forEach((el) =>
+          ScrollTrigger.create({
+            trigger: el,
+            start: 'top 65%',
+            onEnter: () => el.classList.add('reached'),
+            onLeaveBack: () => el.classList.remove('reached'),
+          }),
+        );
         gsap.fromTo(
-          ".workflow-route",
+          '.workflow-route',
           { strokeDashoffset: 1 },
           {
             strokeDashoffset: 0,
-            ease: "none",
+            ease: 'none',
             scrollTrigger: {
-              trigger: ".pathway",
-              start: "top center",
-              end: "bottom 70%",
+              trigger: '.pathway',
+              start: 'top center',
+              end: 'bottom 70%',
               scrub: true,
             },
           },
         );
-        gsap.utils
-          .toArray<HTMLElement>(".ecosystem-module")
-          .forEach((el, i) =>
-            gsap.from(el, {
-              y: 50,
-              rotate: i % 2 ? 4 : -4,
-              opacity: 0.2,
-              duration: 0.8,
-              scrollTrigger: { trigger: el, start: "top 94%", once: true },
-            }),
-          );
-        gsap.from(".demo-devices>div", {
+        gsap.utils.toArray<HTMLElement>('.ecosystem-module').forEach((el, i) =>
+          gsap.from(el, {
+            y: 50,
+            rotate: i % 2 ? 4 : -4,
+            opacity: 0.2,
+            duration: 0.8,
+            scrollTrigger: { trigger: el, start: 'top 94%', once: true },
+          }),
+        );
+        gsap.from('.demo-devices>div', {
           y: 90,
           rotate: 4,
           opacity: 0.3,
           stagger: 0.15,
           duration: 1,
-          ease: "power3.out",
+          ease: 'power3.out',
           scrollTrigger: {
-            trigger: ".demo-devices",
-            start: "top 85%",
+            trigger: '.demo-devices',
+            start: 'top 85%',
             once: true,
           },
         });
       });
-      media.add(
-        "(min-width: 1000px) and (prefers-reduced-motion: no-preference)",
-        () => {
-          const scatter = document.querySelector(".gather-scene");
-          if (scatter) {
-            const cards = gsap.utils.toArray<HTMLElement>(".scatter-card");
-            gsap.to(cards, {
-              x: 0,
+      media.add('(min-width: 1000px) and (prefers-reduced-motion: no-preference)', () => {
+        const scatter = document.querySelector('.gather-scene');
+        if (scatter) {
+          const cards = gsap.utils.toArray<HTMLElement>('.scatter-card');
+          gsap.to(cards, {
+            x: 0,
+            y: 0,
+            rotation: 0,
+            scale: 0.6,
+            opacity: 0,
+            ease: 'power2.inOut',
+            stagger: 0.025,
+            scrollTrigger: {
+              trigger: '.gather-track',
+              start: 'top top',
+              end: '75% bottom',
+              scrub: 0.5,
+            },
+          });
+          gsap.fromTo(
+            '.gather-dashboard',
+            { scale: 0.78, opacity: 0.1, y: 60 },
+            {
+              scale: 1,
+              opacity: 1,
               y: 0,
-              rotation: 0,
-              scale: 0.6,
-              opacity: 0,
-              ease: "power2.inOut",
-              stagger: 0.025,
               scrollTrigger: {
-                trigger: ".gather-track",
-                start: "top top",
-                end: "75% bottom",
+                trigger: '.gather-track',
+                start: 'top top',
+                end: 'bottom bottom',
                 scrub: 0.5,
               },
-            });
-            gsap.fromTo(
-              ".gather-dashboard",
-              { scale: 0.78, opacity: 0.1, y: 60 },
-              {
-                scale: 1,
-                opacity: 1,
-                y: 0,
-                scrollTrigger: {
-                  trigger: ".gather-track",
-                  start: "top top",
-                  end: "bottom bottom",
-                  scrub: 0.5,
-                },
-              },
-            );
-          }
-        },
-      );
+            },
+          );
+        }
+      });
     });
     const visibility = new IntersectionObserver(
       (entries) =>
         entries.forEach((e) => {
-          (e.target as HTMLElement).dataset.motionVisible = String(
-            e.isIntersecting,
-          );
+          (e.target as HTMLElement).dataset.motionVisible = String(e.isIntersecting);
         }),
-      { rootMargin: "100px" },
+      { rootMargin: '100px' },
     );
-    document
-      .querySelectorAll("main>section")
-      .forEach((el) => visibility.observe(el));
-    const fine = matchMedia("(hover:hover) and (pointer:fine)").matches;
+    document.querySelectorAll('main>section').forEach((el) => visibility.observe(el));
+    const fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
     let frame = 0;
     const pointer = (e: PointerEvent) => {
       if (!fine) return;
       cancelAnimationFrame(frame);
       frame = requestAnimationFrame(() => {
         const magnetic = (e.target as Element).closest<HTMLElement>(
-          ".hero-actions .button,.site-header .desktop-nav a",
+          '.hero-actions .button,.site-header .desktop-nav a',
         );
         if (magnetic) {
           const r = magnetic.getBoundingClientRect();
           magnetic.style.translate =
             (e.clientX - r.left - r.width / 2) * 0.06 +
-            "px " +
+            'px ' +
             (e.clientY - r.top - r.height / 2) * 0.08 +
-            "px";
+            'px';
           magnetic.onpointerleave = () => {
-            magnetic.style.translate = "0px 0px";
+            magnetic.style.translate = '0px 0px';
           };
         }
-        const stage = (e.target as Element).closest<HTMLElement>(".hero-depth");
+        const stage = (e.target as Element).closest<HTMLElement>('.hero-depth');
         if (stage) {
           const r = stage.getBoundingClientRect();
           stage.style.setProperty(
-            "--rx",
-            ((e.clientY - r.top - r.height / 2) / r.height) * -5 + "deg",
+            '--rx',
+            ((e.clientY - r.top - r.height / 2) / r.height) * -5 + 'deg',
           );
           stage.style.setProperty(
-            "--ry",
-            ((e.clientX - r.left - r.width / 2) / r.width) * 7 + "deg",
+            '--ry',
+            ((e.clientX - r.left - r.width / 2) / r.width) * 7 + 'deg',
           );
         }
       });
     };
-    document.addEventListener("pointermove", pointer, { passive: true });
+    document.addEventListener('pointermove', pointer, { passive: true });
     return () => {
       ctx.revert();
       visibility.disconnect();
       document
-        .querySelectorAll("[data-motion-visible]")
-        .forEach((el) => el.removeAttribute("data-motion-visible"));
+        .querySelectorAll('[data-motion-visible]')
+        .forEach((el) => el.removeAttribute('data-motion-visible'));
       cancelAnimationFrame(frame);
-      document.removeEventListener("pointermove", pointer);
+      document.removeEventListener('pointermove', pointer);
     };
   }, [disabled, path]);
-  return path === "/student-information-system" || path === "/student-information-system/" ? null : <div className="reading-progress" aria-hidden="true" />;
+  return path === '/student-information-system' ||
+    path === '/student-information-system/' ? null : (
+    <div className="reading-progress" aria-hidden="true" />
+  );
 }
 
 export function ExperienceHero() {
@@ -234,13 +230,30 @@ export function ExperienceHero() {
       <div className="hero-grid wrap">
         <div className="hero-editorial">
           <Eyebrow>{homepage.hero.eyebrow}</Eyebrow>
-          <h1><span className="headline-mask"><span>School Management Software</span></span><span className="headline-mask"><span> for K–12 and <em>Multi-Branch Schools</em></span></span></h1>
+          <h1>
+            <span className="headline-mask">
+              <span>School Management Software</span>
+            </span>
+            <span className="headline-mask">
+              <span>
+                {' '}
+                for K–12 and <em>Multi-Branch Schools</em>
+              </span>
+            </span>
+          </h1>
           <p>{homepage.hero.description}</p>
           <div className="hero-actions">
             <Action>{homepage.hero.primary}</Action>
-            <Action href="/how-it-works/" secondary>{homepage.hero.secondary}</Action>
+            <Action href="/how-it-works/" secondary>
+              {homepage.hero.secondary}
+            </Action>
           </div>
-          <a className="hero-scroll" href="#connections"><span><ArrowDown size={16}/></span>From enquiry to report card</a>
+          <a className="hero-scroll" href="#connections">
+            <span>
+              <ArrowDown size={16} />
+            </span>
+            From enquiry to report card
+          </a>
         </div>
         <div className="hero-depth">
           <div className="hero-halo" />
@@ -296,35 +309,37 @@ export function ExperienceHero() {
           </div>
         </div>
       </div>
-      <div className="hero-foot wrap"><p>{homepage.hero.strip}</p></div>
+      <div className="hero-foot wrap">
+        <p>{homepage.hero.strip}</p>
+      </div>
     </section>
   );
 }
 
 const connections = [
   {
-    label: "Front desk",
+    label: 'Front desk',
     icon: BookOpen,
-    action: "Captures an enquiry",
-    className: "teacher-node",
+    action: 'Captures an enquiry',
+    className: 'teacher-node',
   },
   {
-    label: "Accounts",
+    label: 'Accounts',
     icon: CalendarDays,
-    action: "Sets fees and issues receipts",
-    className: "admin-node",
+    action: 'Sets fees and issues receipts',
+    className: 'admin-node',
   },
   {
-    label: "Teachers",
+    label: 'Teachers',
     icon: MessageSquare,
-    action: "Manage exams and report cards.",
-    className: "parent-node",
+    action: 'Manage exams and report cards.',
+    className: 'parent-node',
   },
   {
-    label: "School leader",
+    label: 'School leader',
     icon: LayoutDashboard,
-    action: "Reviews operations and finance",
-    className: "leader-node",
+    action: 'Reviews operations and finance',
+    className: 'leader-node',
   },
 ];
 export function ConnectionMap() {
@@ -339,42 +354,25 @@ export function ConnectionMap() {
     const map = mapRef.current;
     if (!map) return;
     const measure = () => {
-      const hub = map.querySelector<HTMLElement>(".connection-hub");
+      const hub = map.querySelector<HTMLElement>('.connection-hub');
       if (!hub) return;
       const hx = hub.offsetLeft + hub.offsetWidth / 2,
         hy = hub.offsetTop + hub.offsetHeight / 2;
-      const paths = Array.from(
-        map.querySelectorAll<HTMLElement>(".connection-node"),
-      ).map((node) => {
-        const x = node.offsetLeft + node.offsetWidth / 2,
-          y = node.offsetTop + node.offsetHeight / 2;
-        const mid = (y + hy) / 2;
-        return (
-          "M" +
-          x +
-          " " +
-          y +
-          " C" +
-          x +
-          " " +
-          mid +
-          " " +
-          hx +
-          " " +
-          mid +
-          " " +
-          hx +
-          " " +
-          hy
-        );
-      });
+      const paths = Array.from(map.querySelectorAll<HTMLElement>('.connection-node')).map(
+        (node) => {
+          const x = node.offsetLeft + node.offsetWidth / 2,
+            y = node.offsetTop + node.offsetHeight / 2;
+          const mid = (y + hy) / 2;
+          return (
+            'M' + x + ' ' + y + ' C' + x + ' ' + mid + ' ' + hx + ' ' + mid + ' ' + hx + ' ' + hy
+          );
+        },
+      );
       setWires({ width: map.clientWidth, height: map.clientHeight, paths });
     };
     const observer = new ResizeObserver(measure);
     observer.observe(map);
-    map
-      .querySelectorAll(".connection-node,.connection-hub")
-      .forEach((el) => observer.observe(el));
+    map.querySelectorAll('.connection-node,.connection-hub').forEach((el) => observer.observe(el));
     measure();
     return () => observer.disconnect();
   }, []);
@@ -386,8 +384,7 @@ export function ConnectionMap() {
     const observer = new IntersectionObserver(
       ([entry]) => {
         clearInterval(timer);
-        if (entry.isIntersecting)
-          timer = setInterval(() => setActive((v) => (v + 1) % 4), 2600);
+        if (entry.isIntersecting) timer = setInterval(() => setActive((v) => (v + 1) % 4), 2600);
       },
       { threshold: 0.35 },
     );
@@ -405,7 +402,41 @@ export function ConnectionMap() {
     >
       <div className="section-heading">
         <h2>{homepage.sections[0].title}</h2>
-        <div className="homepage-flow-copy">{homepage.sections[0].paragraphs.map(text => <p key={text}>{text.split(/(school ERP software|Student Information System)/g).map((part, index) => part === 'school ERP software' ? <Link key={index} className="homepage-context-link" href="/school-erp-software/">{part}</Link> : part === 'Student Information System' ? <Link key={index} className="homepage-context-link" href="/student-information-system/">{part}</Link> : part)}</p>)}<p>Finance teams can manage class-wise fee heads, concessions, recorded payments, outstanding dues and receipts with Cleezo?s <Link className="homepage-context-link" href="/features/school-fee-management-software/">school fee management software</Link>.</p><TextLink href="#modules">See the core modules</TextLink></div>
+        <div className="homepage-flow-copy">
+          {homepage.sections[0].paragraphs.map((text) => (
+            <p key={text}>
+              {text.split(/(school ERP software|Student Information System)/g).map((part, index) =>
+                part === 'school ERP software' ? (
+                  <Link key={index} className="homepage-context-link" href="/school-erp-software/">
+                    {part}
+                  </Link>
+                ) : part === 'Student Information System' ? (
+                  <Link
+                    key={index}
+                    className="homepage-context-link"
+                    href="/student-information-system/"
+                  >
+                    {part}
+                  </Link>
+                ) : (
+                  part
+                ),
+              )}
+            </p>
+          ))}
+          <p>
+            Finance teams can manage class-wise fee heads, concessions, recorded payments,
+            outstanding dues and receipts with Cleezo?s{' '}
+            <Link
+              className="homepage-context-link"
+              href="/features/school-fee-management-software/"
+            >
+              school fee management software
+            </Link>
+            .
+          </p>
+          <TextLink href="#modules">See the core modules</TextLink>
+        </div>
       </div>
       <div ref={mapRef} className={`connection-map connection-step-${active}`}>
         <svg
@@ -428,10 +459,7 @@ export function ConnectionMap() {
           aria-hidden="true"
         >
           <path d="M140 80 C330 80 290 175 500 175 S710 80 860 80 M140 280 C330 280 290 175 500 175 S710 280 860 280" />
-          <path
-            className="wire-signal"
-            d="M140 80 C330 80 290 175 500 175 S710 280 860 280"
-          />
+          <path className="wire-signal" d="M140 80 C330 80 290 175 500 175 S710 280 860 280" />
           <circle r="5" fill="#F36D22">
             <animateMotion
               dur="7s"
@@ -441,12 +469,7 @@ export function ConnectionMap() {
           </circle>
         </svg>
         <div className="connection-hub">
-          <img
-            src="/cleezo-logo.png"
-            width="52"
-            height="55"
-            alt="Cleezo Class"
-          />
+          <img src="/cleezo-logo.png" width="104" height="37" alt="Cleezo Class" />
           <strong>
             One connected
             <br />
@@ -456,7 +479,7 @@ export function ConnectionMap() {
         </div>
         {connections.map((n, i) => (
           <button
-            className={`connection-node ${n.className} ${active === i ? "node-active" : ""}`}
+            className={`connection-node ${n.className} ${active === i ? 'node-active' : ''}`}
             key={n.label}
             onClick={() => setActive(i)}
             aria-pressed={active === i}
@@ -490,7 +513,7 @@ export function ConnectionMap() {
 }
 
 export function PlatformPreview() {
-  const [tab, setTab] = useState("0");
+  const [tab, setTab] = useState('0');
   return (
     <section id="platform-preview" className="preview-section section">
       <div className="wrap">
@@ -499,7 +522,10 @@ export function PlatformPreview() {
             <Eyebrow>Connected, role-based workspaces</Eyebrow>
             <h2>Admissions, attendance, academics and parent updates.</h2>
           </div>
-          <p>Follow enquiries, review supported biometric and RFID attendance, prepare examinations and keep parents informed.</p>
+          <p>
+            Follow enquiries, review supported biometric and RFID attendance, prepare examinations
+            and keep parents informed.
+          </p>
         </div>
         <Tabs value={tab} onValueChange={setTab} className="platform-tabs">
           <TabsList aria-label="Product preview" className="product-tab-list">
@@ -517,8 +543,8 @@ export function PlatformPreview() {
           ))}
         </Tabs>
         <p className="preview-caption">
-          An illustrative preview with sample records. Explore your school’s
-          exact configuration in a demo.
+          An illustrative preview with sample records. Explore your school’s exact configuration in
+          a demo.
         </p>
       </div>
     </section>
@@ -527,93 +553,90 @@ export function PlatformPreview() {
 
 const checkpoints = [
   [
-    "Admissions CRM\n& enrolment",
-    "Capture enquiries and\nenrol accepted applicants.",
-    "Enquiry tracking",
-    "Student records"
+    'Admissions CRM\n& enrolment',
+    'Capture enquiries and\nenrol accepted applicants.',
+    'Enquiry tracking',
+    'Student records',
   ],
   [
-    "Fee collection\n& accounting",
-    "Set class-wise fees and\nissue branded receipts.",
-    "QR-verifiable receipts",
-    "Approved concessions"
+    'Fee collection\n& accounting',
+    'Set class-wise fees and\nissue branded receipts.',
+    'QR-verifiable receipts',
+    'Approved concessions',
   ],
   [
-    "Academics\n& examinations",
-    "Plan classes and exams;\npublish report cards.",
-    "Hall tickets",
-    "Report cards"
+    'Academics\n& examinations',
+    'Plan classes and exams;\npublish report cards.',
+    'Hall tickets',
+    'Report cards',
   ],
   [
-    "Parent\ncommunication",
-    "Share receipts, alerts\nand school updates.",
-    "Official WhatsApp",
-    "Parent access"
-  ]
+    'Parent\ncommunication',
+    'Share receipts, alerts\nand school updates.',
+    'Official WhatsApp',
+    'Parent access',
+  ],
 ];
 export function ConnectedPathway() {
   const pathwayRef = useRef<HTMLDivElement>(null);
-  const [wave, setWave] = useState({ width: 1100, height: 150, path: "" });
+  const [wave, setWave] = useState({ width: 1100, height: 150, path: '' });
   useEffect(() => {
     const pathway = pathwayRef.current;
     if (!pathway) return;
     const measure = () => {
-      const svg = pathway.querySelector<SVGSVGElement>(".pathway-svg");
-      if (!svg || getComputedStyle(svg).display === "none") return;
+      const svg = pathway.querySelector<SVGSVGElement>('.pathway-svg');
+      if (!svg || getComputedStyle(svg).display === 'none') return;
       const bounds = svg.getBoundingClientRect();
       if (!bounds.width || !bounds.height) return;
-      const points = Array.from(pathway.querySelectorAll(".stop-marker")).map(
-        (marker) => {
-          const box = marker.getBoundingClientRect();
-          return {
-            x: box.left + box.width / 2 - bounds.left,
-            y: box.top + box.height / 2 - bounds.top,
-          };
-        },
-      );
+      const points = Array.from(pathway.querySelectorAll('.stop-marker')).map((marker) => {
+        const box = marker.getBoundingClientRect();
+        return {
+          x: box.left + box.width / 2 - bounds.left,
+          y: box.top + box.height / 2 - bounds.top,
+        };
+      });
       if (points.length < 2) return;
-      let path = "M" + points[0].x + " " + points[0].y;
-      const stops = [
-        ...points,
-        { x: bounds.width, y: points[points.length - 1].y },
-      ];
+      let path = 'M' + points[0].x + ' ' + points[0].y;
+      const stops = [...points, { x: bounds.width, y: points[points.length - 1].y }];
       for (let i = 1; i < stops.length; i++) {
         const a = stops[i - 1],
           b = stops[i],
           dx = b.x - a.x;
         const amplitude = Math.min(48, dx * 0.2) * (i % 2 ? -1 : 1);
         path +=
-          " C" +
+          ' C' +
           (a.x + dx / 3) +
-          " " +
+          ' ' +
           (a.y + amplitude) +
-          " " +
+          ' ' +
           (b.x - dx / 3) +
-          " " +
+          ' ' +
           (b.y + amplitude) +
-          " " +
+          ' ' +
           b.x +
-          " " +
+          ' ' +
           b.y;
       }
       setWave({ width: bounds.width, height: bounds.height, path });
     };
     const observer = new ResizeObserver(measure);
     observer.observe(pathway);
-    pathway
-      .querySelectorAll(".stop-marker,.workflow-stop")
-      .forEach((el) => observer.observe(el));
-    window.addEventListener("resize", measure);
+    pathway.querySelectorAll('.stop-marker,.workflow-stop').forEach((el) => observer.observe(el));
+    window.addEventListener('resize', measure);
     measure();
     return () => {
       observer.disconnect();
-      window.removeEventListener("resize", measure);
+      window.removeEventListener('resize', measure);
     };
   }, []);
   return (
     <section className="pathway-section section wrap">
       <Eyebrow>Every handover, connected</Eyebrow>
-      <h2>From first enquiry<br/>to report card.</h2>
+      <h2>
+        From first enquiry
+        <br />
+        to report card.
+      </h2>
       <div ref={pathwayRef} className="pathway">
         <svg
           className="pathway-svg"
@@ -630,8 +653,20 @@ export function ConnectedPathway() {
             <article className="workflow-stop" key={title}>
               <span className="stop-marker">0{i + 1}</span>
               <Icon size={28} />
-              <h3>{title.split("\n").map(line => <span className="workflow-copy-line" key={line}>{line}</span>)}</h3>
-              <p>{body.split("\n").map(line => <span className="workflow-copy-line" key={line}>{line}</span>)}</p>
+              <h3>
+                {title.split('\n').map((line) => (
+                  <span className="workflow-copy-line" key={line}>
+                    {line}
+                  </span>
+                ))}
+              </h3>
+              <p>
+                {body.split('\n').map((line) => (
+                  <span className="workflow-copy-line" key={line}>
+                    {line}
+                  </span>
+                ))}
+              </p>
               <div className="workflow-chips">
                 <span>{a}</span>
                 <span>{b}</span>
@@ -645,14 +680,14 @@ export function ConnectedPathway() {
 }
 
 const looseCards = [
-  ["Spreadsheet", FileCheck, -390, -110, -13],
-  ["Attendance register", CalendarDays, -420, 80, 8],
-  ["Parent message", MessageSquare, 350, -140, 12],
-  ["Fee record", Wallet, 410, 70, -8],
-  ["Report card", BookOpen, -240, 200, 9],
-  ["Timetable", Clock3, 200, 220, -12],
-  ["WhatsApp update", Bell, 20, -200, 6],
-  ["Student record", Users, 400, 220, 8],
+  ['Spreadsheet', FileCheck, -390, -110, -13],
+  ['Attendance register', CalendarDays, -420, 80, 8],
+  ['Parent message', MessageSquare, 350, -140, 12],
+  ['Fee record', Wallet, 410, 70, -8],
+  ['Report card', BookOpen, -240, 200, 9],
+  ['Timetable', Clock3, 200, 220, -12],
+  ['WhatsApp update', Bell, 20, -200, 6],
+  ['Student record', Users, 400, 220, 8],
 ] as const;
 export function GatherWorkspace() {
   return (
@@ -693,38 +728,38 @@ export function GatherWorkspace() {
 
 const dayStages = [
   {
-    "time": "08:30",
-    "label": "Attendance and HR",
-    "title": "Synchronise the school day.",
-    "body": "Bring in student and staff attendance from supported biometric or RFID devices. Track late or irregular attendance and leave workflows.",
-    "mode": 1
+    time: '08:30',
+    label: 'Attendance and HR',
+    title: 'Synchronise the school day.',
+    body: 'Bring in student and staff attendance from supported biometric or RFID devices. Track late or irregular attendance and leave workflows.',
+    mode: 1,
   },
   {
-    "time": "10:30",
-    "label": "Academics and examinations",
-    "title": "Coordinate classes and exams.",
-    "body": "Manage timetables, substitute allocations, seating plans and hall tickets. Publish report cards with marks, attendance and performance trends.",
-    "mode": 2
+    time: '10:30',
+    label: 'Academics and examinations',
+    title: 'Coordinate classes and exams.',
+    body: 'Manage timetables, substitute allocations, seating plans and hall tickets. Publish report cards with marks, attendance and performance trends.',
+    mode: 2,
   },
   {
-    "time": "13:00",
-    "label": "Accounts and operations",
-    "title": "Review collections and dues.",
-    "body": "Record cash, UPI, cheque or bank-transfer payments. Issue QR-verifiable receipts and review outstanding fees, expenses and ledgers.",
-    "mode": 4
+    time: '13:00',
+    label: 'Accounts and operations',
+    title: 'Review collections and dues.',
+    body: 'Record cash, UPI, cheque or bank-transfer payments. Issue QR-verifiable receipts and review outstanding fees, expenses and ledgers.',
+    mode: 4,
   },
   {
-    "time": "15:30",
-    "label": "Parent communication",
-    "title": "Keep families informed.",
-    "body": "Give parents access to fee status, digital report cards and event updates. Send receipts and attendance alerts through the school’s official WhatsApp number.",
-    "mode": 3
-  }
+    time: '15:30',
+    label: 'Parent communication',
+    title: 'Keep families informed.',
+    body: 'Give parents access to fee status, digital report cards and event updates. Send receipts and attendance alerts through the school’s official WhatsApp number.',
+    mode: 3,
+  },
 ];
 export function SchoolDayTimeline() {
   const root = useRef<HTMLElement>(null);
   const [active, setActive] = useState(0);
-  const [hours, minutes] = dayStages[active].time.split(":").map(Number);
+  const [hours, minutes] = dayStages[active].time.split(':').map(Number);
   const hourAngle = (hours % 12) * 30 + minutes * 0.5;
   const minuteAngle = minutes * 6;
   const disabled = useMotionDisabled();
@@ -732,11 +767,11 @@ export function SchoolDayTimeline() {
     if (disabled) return;
     gsap.registerPlugin(ScrollTrigger);
     const media = gsap.matchMedia();
-    media.add("(min-width:1000px)", () => {
+    media.add('(min-width:1000px)', () => {
       const trigger = ScrollTrigger.create({
         trigger: root.current,
-        start: "top top",
-        end: "bottom bottom",
+        start: 'top top',
+        end: 'bottom bottom',
         onUpdate: (s) => setActive(Math.min(3, Math.floor(s.progress * 4))),
       });
       return () => trigger.kill();
@@ -758,10 +793,10 @@ export function SchoolDayTimeline() {
             <CheckCheck size={18} />
             {
               [
-                "Device attendance reviewed",
-                "Academic records prepared",
-                "Collections and dues reviewed",
-                "Families informed",
+                'Device attendance reviewed',
+                'Academic records prepared',
+                'Collections and dues reviewed',
+                'Families informed',
               ][i]
             }
           </span>
@@ -773,23 +808,19 @@ export function SchoolDayTimeline() {
     );
   };
   return (
-    <section
-      ref={root}
-      className={`day-timeline ${disabled ? "day-static" : ""}`}
-      id="school-day"
-    >
+    <section ref={root} className={`day-timeline ${disabled ? 'day-static' : ''}`} id="school-day">
       <div className="day-sticky wrap">
         <div className="day-top">
           <div>
             <Eyebrow>One connected school day</Eyebrow>
-            <h2>School operations, academics<br/>and finance, connected.</h2>
+            <h2>
+              School operations, academics
+              <br />
+              and finance, connected.
+            </h2>
           </div>
           <div className="school-clock" aria-hidden="true">
-            <svg
-              className="clock-face"
-              viewBox="0 0 100 100"
-              aria-hidden="true"
-            >
+            <svg className="clock-face" viewBox="0 0 100 100" aria-hidden="true">
               <circle cx="50" cy="50" r="44" fill="none" />
               {Array.from({ length: 12 }, (_, i) => (
                 <line
@@ -823,9 +854,8 @@ export function SchoolDayTimeline() {
                     top:
                       root.current.getBoundingClientRect().top +
                       window.scrollY +
-                      (root.current.offsetHeight - innerHeight) *
-                        (i / 4 + 0.02),
-                    behavior: "smooth",
+                      (root.current.offsetHeight - innerHeight) * (i / 4 + 0.02),
+                    behavior: 'smooth',
                   });
                 } else {
                   setActive(i);
@@ -840,16 +870,14 @@ export function SchoolDayTimeline() {
           ))}
         </div>
         <div className="desktop-day-scene">{scene(active)}</div>
-        <div className="mobile-day-scenes">
-          {dayStages.map((_, i) => scene(i))}
-        </div>
+        <div className="mobile-day-scenes">{dayStages.map((_, i) => scene(i))}</div>
       </div>
     </section>
   );
 }
 
 export function StakeholderExperience() {
-  const [role, setRole] = useState("0");
+  const [role, setRole] = useState('0');
   return (
     <section className="role-experience section wrap" id="people">
       <div className="section-heading">
@@ -875,25 +903,25 @@ export function StakeholderExperience() {
                 <img
                   src={
                     i === 5
-                      ? "/indian-parent.webp"
+                      ? '/indian-parent.webp'
                       : i === 0 || i === 1
-                        ? "/indian-leader.webp"
-                        : "/indian-classroom.webp"
+                        ? '/indian-leader.webp'
+                        : '/indian-classroom.webp'
                   }
                   srcSet={
                     i === 5
-                      ? "/indian-parent-800.webp 800w, /indian-parent.webp 1536w"
+                      ? '/indian-parent-800.webp 800w, /indian-parent.webp 1536w'
                       : i === 0 || i === 1
-                        ? "/indian-leader-800.webp 800w, /indian-leader.webp 1536w"
-                        : "/indian-classroom-800.webp 800w, /indian-classroom.webp 1536w"
+                        ? '/indian-leader-800.webp 800w, /indian-leader.webp 1536w'
+                        : '/indian-classroom-800.webp 800w, /indian-classroom.webp 1536w'
                   }
                   sizes="(max-width:600px) 100vw, 42vw"
                   alt={
                     i === 5
-                      ? "Parent and child sharing a school moment"
+                      ? 'Parent and child sharing a school moment'
                       : i === 0 || i === 1
-                        ? "Indian school staff in a school environment"
-                        : "Teacher and students in an Indian classroom"
+                        ? 'Indian school staff in a school environment'
+                        : 'Teacher and students in an Indian classroom'
                   }
                   loading="lazy"
                   width="800"
@@ -905,9 +933,7 @@ export function StakeholderExperience() {
                 </div>
               </div>
               <div className="role-information">
-                <span className="role-kicker">
-                  0{i + 1} / ONE CONNECTED PLATFORM
-                </span>
+                <span className="role-kicker">0{i + 1} / ONE CONNECTED PLATFORM</span>
                 <h3>{r.title}</h3>
                 <p>{r.body}</p>
                 <div className="role-product">
@@ -938,7 +964,11 @@ export function HumanMoment() {
       <div className="human-overlay" />
       <div className="wrap human-copy">
         <Eyebrow>Private K–12 schools and academies</Eyebrow>
-        <h2>One connected system.<br/><em>Across your school group.</em></h2>
+        <h2>
+          One connected system.
+          <br />
+          <em>Across your school group.</em>
+        </h2>
         <p>{homepage.sections[3].cards[1].paragraphs[0]}</p>
         <TextLink href="/book-demo">Request a Demo</TextLink>
       </div>
@@ -973,7 +1003,7 @@ export function ModuleEcosystem() {
               return (
                 <button
                   key={m.title}
-                  className={`ecosystem-module ${active === i ? "module-active" : ""}`}
+                  className={`ecosystem-module ${active === i ? 'module-active' : ''}`}
                   onClick={() => setActive(i)}
                   onMouseEnter={() => setActive(i)}
                   onFocus={() => setActive(i)}
@@ -990,34 +1020,40 @@ export function ModuleEcosystem() {
             })}
           </div>
           <div className="ecosystem-details">
-          {homeModules.map((m, i) => (
-          <div className={`ecosystem-focus ${active === i ? "focus-active" : ""}`} key={m.title} aria-hidden={active !== i} inert={active !== i}>
-            <div className="ecosystem-platform">
-              <img
-                src="/cleezo-logo.png"
-                width="48"
-                height="50"
-                alt="Cleezo Class"
-              />
-              <span>ONE CONNECTED PLATFORM</span>
-            </div>
-            <span className="focus-module-label">
-              0{i + 1} / {m.label}
-            </span>
-            <h3>{m.heading}</h3>
-            {m.paragraphs.map(text => <p key={text}>{text}</p>)}
-            {i === 0 && <TextLink href="/features/admission-management-software/">Explore admission management software</TextLink>}
-            <div className="module-feature-list">
-              {m.features.map((label) => (
-                <span key={label}>
-                  <Check size={16} />
-                  {label}
+            {homeModules.map((m, i) => (
+              <div
+                className={`ecosystem-focus ${active === i ? 'focus-active' : ''}`}
+                key={m.title}
+                aria-hidden={active !== i}
+                inert={active !== i}
+              >
+                <div className="ecosystem-platform">
+                  <img src="/cleezo-logo.png" width="96" height="34" alt="Cleezo Class" />
+                  <span>ONE CONNECTED PLATFORM</span>
+                </div>
+                <span className="focus-module-label">
+                  0{i + 1} / {m.label}
                 </span>
-              ))}
-            </div>
-            <TextLink href="/book-demo">Request a Demo</TextLink>
-          </div>
-          ))}
+                <h3>{m.heading}</h3>
+                {m.paragraphs.map((text) => (
+                  <p key={text}>{text}</p>
+                ))}
+                {i === 0 && (
+                  <TextLink href="/features/admission-management-software/">
+                    Explore admission management software
+                  </TextLink>
+                )}
+                <div className="module-feature-list">
+                  {m.features.map((label) => (
+                    <span key={label}>
+                      <Check size={16} />
+                      {label}
+                    </span>
+                  ))}
+                </div>
+                <TextLink href="/book-demo">Request a Demo</TextLink>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -1026,7 +1062,7 @@ export function ModuleEcosystem() {
 }
 
 export function AttendanceWalkthrough() {
-  const [step, setStep] = useState("0");
+  const [step, setStep] = useState('0');
   const [absent, setAbsent] = useState(true);
   const root = useRef<HTMLElement>(null);
   const disabled = useMotionDisabled();
@@ -1034,11 +1070,11 @@ export function AttendanceWalkthrough() {
     if (disabled) return;
     gsap.registerPlugin(ScrollTrigger);
     const mm = gsap.matchMedia();
-    mm.add("(min-width:1000px)", () => {
+    mm.add('(min-width:1000px)', () => {
       const trigger = ScrollTrigger.create({
         trigger: root.current,
-        start: "top 55%",
-        end: "bottom 85%",
+        start: 'top 55%',
+        end: 'bottom 85%',
         onUpdate: (s) => {
           if (!root.current?.contains(document.activeElement))
             setStep(String(Math.min(2, Math.floor(s.progress * 3))));
@@ -1058,10 +1094,7 @@ export function AttendanceWalkthrough() {
         <p>{homepage.sections[1].cards[3].paragraphs[0]}</p>
       </div>
       <Tabs value={step} onValueChange={setStep} className="walkthrough-layout">
-        <TabsList
-          className="walkthrough-steps"
-          aria-label="Attendance workflow"
-        >
+        <TabsList className="walkthrough-steps" aria-label="Attendance workflow">
           {attendanceSteps.map((s, i) => (
             <TabsTrigger key={s.title} value={String(i)}>
               <span>0{i + 1}</span>
@@ -1085,9 +1118,9 @@ export function AttendanceWalkthrough() {
               <h3>
                 {
                   [
-                    "Synchronise supported devices.",
-                    "Review attendance exceptions.",
-                    "Keep parents updated.",
+                    'Synchronise supported devices.',
+                    'Review attendance exceptions.',
+                    'Keep parents updated.',
                   ][i]
                 }
               </h3>
@@ -1095,10 +1128,10 @@ export function AttendanceWalkthrough() {
                 <>
                   <div className="context-fields">
                     {[
-                      ["Class", "6"],
-                      ["Section", "A"],
-                      ["Date", "21 September"],
-                      ["Device", "Biometric / RFID"],
+                      ['Class', '6'],
+                      ['Section', 'A'],
+                      ['Date', '21 September'],
+                      ['Device', 'Biometric / RFID'],
                     ].map(([label, value]) => (
                       <div key={label}>
                         <small>{label}</small>
@@ -1113,40 +1146,36 @@ export function AttendanceWalkthrough() {
                       10:30 · Science<small>Our environment · Class 6A</small>
                     </span>
                   </div>
-                  <button className="button" onClick={() => setStep("1")}>
+                  <button className="button" onClick={() => setStep('1')}>
                     Review synced attendance <ArrowRight size={17} />
                   </button>
                 </>
               ) : i === 1 ? (
                 <>
-                  <p className="interaction-hint">
-                    Try changing Kabir’s attendance status.
-                  </p>
+                  <p className="interaction-hint">Try changing Kabir’s attendance status.</p>
                   <div className="attendance-register">
-                    {["Aarav S.", "Meera K.", "Riya P.", "Kabir A."].map(
-                      (name, j) => (
-                        <div key={name}>
-                          <span className="student-initial">{name[0]}</span>
-                          <strong>{name}</strong>
-                          {j === 3 ? (
-                            <button
-                              className={`attendance-toggle ${absent ? "is-absent" : ""}`}
-                              onClick={() => setAbsent(!absent)}
-                              aria-label={`Kabir attendance: ${absent ? "Absent" : "Present"}. Click to change.`}
-                            >
-                              {absent ? "Absent" : "Present"}
-                              <span />
-                            </button>
-                          ) : (
-                            <span className="present-status">
-                              <Check size={14} /> Present
-                            </span>
-                          )}
-                        </div>
-                      ),
-                    )}
+                    {['Aarav S.', 'Meera K.', 'Riya P.', 'Kabir A.'].map((name, j) => (
+                      <div key={name}>
+                        <span className="student-initial">{name[0]}</span>
+                        <strong>{name}</strong>
+                        {j === 3 ? (
+                          <button
+                            className={`attendance-toggle ${absent ? 'is-absent' : ''}`}
+                            onClick={() => setAbsent(!absent)}
+                            aria-label={`Kabir attendance: ${absent ? 'Absent' : 'Present'}. Click to change.`}
+                          >
+                            {absent ? 'Absent' : 'Present'}
+                            <span />
+                          </button>
+                        ) : (
+                          <span className="present-status">
+                            <Check size={14} /> Present
+                          </span>
+                        )}
+                      </div>
+                    ))}
                   </div>
-                  <button className="button" onClick={() => setStep("2")}>
+                  <button className="button" onClick={() => setStep('2')}>
                     Review follow-up <ArrowRight size={17} />
                   </button>
                 </>
@@ -1157,17 +1186,14 @@ export function AttendanceWalkthrough() {
                       <MessageSquare size={20} /> WhatsApp attendance alert
                     </span>
                     <span className="mono">DRAFT · FOR REVIEW</span>
-                    <h4>
-                      {absent ? "Attendance follow-up" : "Attendance confirmed"}
-                    </h4>
+                    <h4>{absent ? 'Attendance follow-up' : 'Attendance confirmed'}</h4>
                     <p>
                       {absent
-                        ? "Kabir is marked absent from the morning register. Please contact the class teacher if this needs correcting."
-                        : "Kabir is marked present in the morning register. The class record is ready to review."}
+                        ? 'Kabir is marked absent from the morning register. Please contact the class teacher if this needs correcting.'
+                        : 'Kabir is marked present in the morning register. The class record is ready to review.'}
                     </p>
                     <span className="review-recipient">
-                      <ShieldCheck size={17} /> Check recipient and school
-                      settings
+                      <ShieldCheck size={17} /> Check recipient and school settings
                     </span>
                   </div>
                   <div className="message-route">
@@ -1176,9 +1202,7 @@ export function AttendanceWalkthrough() {
                     <Send size={20} />
                     <span>School WhatsApp number</span>
                   </div>
-                  <p className="preview-caption">
-                    Illustrative only. No message is sent.
-                  </p>
+                  <p className="preview-caption">Illustrative only. No message is sent.</p>
                 </>
               )}
             </div>
@@ -1189,9 +1213,9 @@ export function AttendanceWalkthrough() {
   );
 }
 
-const assistance = ["Timetables", "Question papers", "Student photos", "Performance trends"];
+const assistance = ['Timetables', 'Question papers', 'Student photos', 'Performance trends'];
 export function HumanControlledAI() {
-  const [step, setStep] = useState("0");
+  const [step, setStep] = useState('0');
   return (
     <section className="human-ai section">
       <div className="wrap">
@@ -1200,17 +1224,17 @@ export function HumanControlledAI() {
             <Eyebrow>AI & automation</Eyebrow>
             <h2>{homepage.sections[2].title}</h2>
           </div>
-          <p>Explore timetable generation, curriculum-aware question papers, student photo preparation and performance trends.</p>
+          <p>
+            Explore timetable generation, curriculum-aware question papers, student photo
+            preparation and performance trends.
+          </p>
         </div>
         <Tabs value={step} onValueChange={setStep} className="ai-experience">
           <div className="ai-process">
             <span className="ai-caption">
               <Sparkles size={20} /> Automation for everyday school work
             </span>
-            <TabsList
-              aria-label="School automation capabilities"
-              className="ai-process-list"
-            >
+            <TabsList aria-label="School automation capabilities" className="ai-process-list">
               {assistance.map((label, i) => (
                 <TabsTrigger key={label} value={String(i)}>
                   <span>0{i + 1}</span>
@@ -1222,48 +1246,83 @@ export function HumanControlledAI() {
             <TextLink href="/ai">Explore AI & Automation</TextLink>
           </div>
           <div className="automation-panels">
-          {assistance.map((label, i) => (
-            <TabsContent
-              key={label}
-              value={String(i)}
-              className="ai-assistant-screen"
-              forceMount
-              aria-hidden={step !== String(i)}
-              inert={step !== String(i)}
-            >
-              <div className="assistant-top">
-                <span>
-                  <Sparkles size={18} /> School automation
-                </span>
-                <span>Illustrative preview</span>
-              </div>
-              <div className="teacher-prompt">
-                <span className="initial-badge">T</span>
-                <p>{automationExamples[i].prompt}</p>
-              </div>
-              <div className="assistant-draft">
-                <span className="draft-tag">ILLUSTRATIVE OUTPUT</span>
-                <h3>{homepage.sections[2].cards[i].title}</h3>
-                <p>{homepage.sections[2].cards[i].paragraphs[0]}</p>
-                {i === 0 && <TextLink href="/features/school-timetable-software/">Explore school timetable software</TextLink>}
-                <div className="automation-example"><strong>{automationExamples[i].output}</strong>{i === 0 ? <table className="automation-timetable"><caption className="sr-only">Illustrative weekly timetable for Class 6A</caption><thead><tr><th scope="col">Period</th><th scope="col">Subject</th><th scope="col">Teacher</th></tr></thead><tbody><tr><td>Mon 09:00</td><td>Mathematics</td><td>Ms Rao</td></tr><tr><td>Mon 10:00</td><td>Science</td><td>Mr Shah</td></tr><tr><td>Mon 11:30</td><td>English</td><td>Ms Sen</td></tr></tbody></table> : <p>{automationExamples[i].detail}</p>}</div>
-                  <div className="ai-checks">
-                    {automationExamples[i].checks.map(
-                      (x) => (
-                        <span key={x}>
-                          <Check size={14} />
-                          {x}
-                        </span>
-                      ),
+            {assistance.map((label, i) => (
+              <TabsContent
+                key={label}
+                value={String(i)}
+                className="ai-assistant-screen"
+                forceMount
+                aria-hidden={step !== String(i)}
+                inert={step !== String(i)}
+              >
+                <div className="assistant-top">
+                  <span>
+                    <Sparkles size={18} /> School automation
+                  </span>
+                  <span>Illustrative preview</span>
+                </div>
+                <div className="teacher-prompt">
+                  <span className="initial-badge">T</span>
+                  <p>{automationExamples[i].prompt}</p>
+                </div>
+                <div className="assistant-draft">
+                  <span className="draft-tag">ILLUSTRATIVE OUTPUT</span>
+                  <h3>{homepage.sections[2].cards[i].title}</h3>
+                  <p>{homepage.sections[2].cards[i].paragraphs[0]}</p>
+                  {i === 0 && (
+                    <TextLink href="/features/school-timetable-software/">
+                      Explore school timetable software
+                    </TextLink>
+                  )}
+                  <div className="automation-example">
+                    <strong>{automationExamples[i].output}</strong>
+                    {i === 0 ? (
+                      <table className="automation-timetable">
+                        <caption className="sr-only">
+                          Illustrative weekly timetable for Class 6A
+                        </caption>
+                        <thead>
+                          <tr>
+                            <th scope="col">Period</th>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Teacher</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Mon 09:00</td>
+                            <td>Mathematics</td>
+                            <td>Ms Rao</td>
+                          </tr>
+                          <tr>
+                            <td>Mon 10:00</td>
+                            <td>Science</td>
+                            <td>Mr Shah</td>
+                          </tr>
+                          <tr>
+                            <td>Mon 11:30</td>
+                            <td>English</td>
+                            <td>Ms Sen</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    ) : (
+                      <p>{automationExamples[i].detail}</p>
                     )}
                   </div>
-              </div>
-              <div className="ai-human-decision">
-                <ShieldCheck size={19} />
-                <span>
-                  {automationExamples[i].note}
-                </span>
-              </div>
+                  <div className="ai-checks">
+                    {automationExamples[i].checks.map((x) => (
+                      <span key={x}>
+                        <Check size={14} />
+                        {x}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="ai-human-decision">
+                  <ShieldCheck size={19} />
+                  <span>{automationExamples[i].note}</span>
+                </div>
                 <button
                   className="ai-next"
                   onClick={() => setStep(String((i + 1) % assistance.length))}
@@ -1271,8 +1330,8 @@ export function HumanControlledAI() {
                   {assistance[(i + 1) % assistance.length]}
                   <ArrowRight size={16} />
                 </button>
-            </TabsContent>
-          ))}
+              </TabsContent>
+            ))}
           </div>
         </Tabs>
       </div>
@@ -1301,12 +1360,7 @@ export function SchoolDemo() {
         <div className="demo-phone">
           <span className="phone-island" />
           <div className="phone-brand">
-            <img
-              src="/cleezo-logo.png"
-              width="26"
-              height="28"
-              alt="Cleezo Class"
-            />
+            <img src="/cleezo-logo.png" width="52" height="19" alt="Cleezo Class" />
             <span>Parent view</span>
           </div>
           <h4>
@@ -1332,12 +1386,13 @@ export function SchoolDemo() {
       </div>
       <div className="school-demo-copy">
         <Eyebrow>Built around your school</Eyebrow>
-        <h2>{homepage.sections[3].cards[2].title}</h2><p>{homepage.sections[3].cards[2].paragraphs[0]}</p>
+        <h2>{homepage.sections[3].cards[2].title}</h2>
+        <p>{homepage.sections[3].cards[2].paragraphs[0]}</p>
         <div className="demo-promises">
           {[
-            "Private K–12 schools and academies",
-            "School groups, trusts and multi-campus institutions",
-            "CBSE, ICSE, SSC and State Board schools",
+            'Private K–12 schools and academies',
+            'School groups, trusts and multi-campus institutions',
+            'CBSE, ICSE, SSC and State Board schools',
           ].map((x) => (
             <p key={x}>
               <Check size={19} />
@@ -1346,9 +1401,7 @@ export function SchoolDemo() {
           ))}
         </div>
         <Action>Request a Demo</Action>
-        <p className="demo-small-note">
-          Map the modules, roles and configuration to your school.
-        </p>
+        <p className="demo-small-note">Map the modules, roles and configuration to your school.</p>
       </div>
     </section>
   );
@@ -1365,28 +1418,24 @@ export function EditorialResources() {
           </div>
         </div>
         <p className="homepage-operations-intro">{homepage.sections[5].paragraphs[0]}</p>
-        <ul className="homepage-operations-list">{homepage.sections[5].items.map(text => <li key={text}>{text}</li>)}</ul>
+        <ul className="homepage-operations-list">
+          {homepage.sections[5].items.map((text) => (
+            <li key={text}>{text}</li>
+          ))}
+        </ul>
         <div className="editorial-carousel">
           {resources.map((r, i) => (
-            <Link
-              href={`/resources/${r.slug}`}
-              className="editorial-card"
-              key={r.slug}
-            >
+            <Link href={`/resources/${r.slug}`} className="editorial-card" key={r.slug}>
               <div className="editorial-image">
                 <img
                   src={
-                    [
-                      "/indian-classroom.webp",
-                      "/indian-leader.webp",
-                      "/indian-parent.webp",
-                    ][i % 3]
+                    ['/indian-classroom.webp', '/indian-leader.webp', '/indian-parent.webp'][i % 3]
                   }
                   srcSet={
                     [
-                      "/indian-classroom-800.webp 800w, /indian-classroom.webp 1536w",
-                      "/indian-leader-800.webp 800w, /indian-leader.webp 1536w",
-                      "/indian-parent-800.webp 800w, /indian-parent.webp 1536w",
+                      '/indian-classroom-800.webp 800w, /indian-classroom.webp 1536w',
+                      '/indian-leader-800.webp 800w, /indian-leader.webp 1536w',
+                      '/indian-parent-800.webp 800w, /indian-parent.webp 1536w',
                     ][i % 3]
                   }
                   sizes="(max-width:600px) 85vw, 33vw"
@@ -1394,9 +1443,9 @@ export function EditorialResources() {
                   height="600"
                   alt={
                     [
-                      "A learning moment at an Indian school",
-                      "Indian school staff at work",
-                      "A family sharing a school moment",
+                      'A learning moment at an Indian school',
+                      'Indian school staff at work',
+                      'A family sharing a school moment',
                     ][i % 3]
                   }
                   loading="lazy"

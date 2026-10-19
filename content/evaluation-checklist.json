@@ -53,10 +53,7 @@
       {
         "type": "table",
         "rows": [
-          [
-            "Stakeholder",
-            "Questions they should help answer"
-          ],
+          ["Stakeholder", "Questions they should help answer"],
           [
             "School leadership",
             "Which operational, academic and financial views are needed to run the school?"
@@ -212,10 +209,7 @@
       {
         "type": "table",
         "rows": [
-          [
-            "Area to define",
-            "Questions to ask"
-          ],
+          ["Area to define", "Questions to ask"],
           [
             "Roles",
             "Which people need administrative, admissions, accounts, HR, teacher, parent or student access?"
@@ -232,10 +226,7 @@
             "Data ownership",
             "Who owns the accuracy of student, staff, enquiry and finance records?"
           ],
-          [
-            "Ongoing review",
-            "Who will review access when staff responsibilities change?"
-          ]
+          ["Ongoing review", "Who will review access when staff responsibilities change?"]
         ]
       },
       {
@@ -357,84 +348,24 @@
       {
         "type": "table",
         "rows": [
-          [
-            "Requirement",
-            "Priority",
-            "Evidence/status",
-            "Notes or follow-up"
-          ],
+          ["Requirement", "Priority", "Evidence/status", "Notes or follow-up"],
           [
             "Example: enquiry-to-enrolment conversion",
             "Must-have",
             "Demonstrated",
             "Confirm required fields"
           ],
-          [
-            "Student information and role access",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Timetable, examination and report-card workflow",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Fee configuration, receipts, dues and reporting",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Attendance, HR and exception/review workflow",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Parent communication and authorised channels",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Multi-campus responsibilities and central visibility",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Data preparation, imports and validation responsibility",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Data protection and recovery",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Data export and exit",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Training and ongoing support",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Commercial scope, charges and exclusions",
-            "",
-            "",
-            ""
-          ]
+          ["Student information and role access", "", "", ""],
+          ["Timetable, examination and report-card workflow", "", "", ""],
+          ["Fee configuration, receipts, dues and reporting", "", "", ""],
+          ["Attendance, HR and exception/review workflow", "", "", ""],
+          ["Parent communication and authorised channels", "", "", ""],
+          ["Multi-campus responsibilities and central visibility", "", "", ""],
+          ["Data preparation, imports and validation responsibility", "", "", ""],
+          ["Data protection and recovery", "", "", ""],
+          ["Data export and exit", "", "", ""],
+          ["Training and ongoing support", "", "", ""],
+          ["Commercial scope, charges and exclusions", "", "", ""]
         ]
       },
       {

@@ -21,9 +21,7 @@
       "cards": [],
       "items": [],
       "rows": [],
-      "ctas": [
-        "See the core modules"
-      ]
+      "ctas": ["See the core modules"]
     },
     {
       "title": "The school management modules your teams use every day",
@@ -69,9 +67,7 @@
       ],
       "items": [],
       "rows": [],
-      "ctas": [
-        "Request a Demo"
-      ]
+      "ctas": ["Request a Demo"]
     },
     {
       "title": "Automation for the school tasks that create the most manual work",
@@ -139,34 +135,13 @@
       "cards": [],
       "items": [],
       "rows": [
-        [
-          "Team",
-          "What they can manage"
-        ],
-        [
-          "School leadership",
-          "Cross-department operational and financial visibility"
-        ],
-        [
-          "Administration",
-          "Academics, substitutes, events, inventory and operations"
-        ],
-        [
-          "Accounts",
-          "Collections, dues, expenses, ledgers and reports"
-        ],
-        [
-          "Front desk",
-          "Enquiries, admission assessments, follow-ups and campaigns"
-        ],
-        [
-          "HR",
-          "Attendance, leave, payroll and salary slips"
-        ],
-        [
-          "Teachers and parents",
-          "Timetables, assessments, remarks, report cards, fees and updates"
-        ]
+        ["Team", "What they can manage"],
+        ["School leadership", "Cross-department operational and financial visibility"],
+        ["Administration", "Academics, substitutes, events, inventory and operations"],
+        ["Accounts", "Collections, dues, expenses, ledgers and reports"],
+        ["Front desk", "Enquiries, admission assessments, follow-ups and campaigns"],
+        ["HR", "Attendance, leave, payroll and salary slips"],
+        ["Teachers and parents", "Timetables, assessments, remarks, report cards, fees and updates"]
       ],
       "ctas": []
     },
@@ -194,9 +169,7 @@
       "cards": [],
       "items": [],
       "rows": [],
-      "ctas": [
-        "Discuss Your School Setup"
-      ]
+      "ctas": ["Discuss Your School Setup"]
     },
     {
       "title": "School management software FAQs",
@@ -269,10 +242,7 @@
       "cards": [],
       "items": [],
       "rows": [],
-      "ctas": [
-        "Request a Demo",
-        "Log In"
-      ]
+      "ctas": ["Request a Demo", "Log In"]
     }
   ]
 }

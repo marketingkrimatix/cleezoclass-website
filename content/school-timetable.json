@@ -37,26 +37,11 @@
         {
           "type": "table",
           "rows": [
-            [
-              "Planning challenge",
-              "What the timetable must account for"
-            ],
-            [
-              "Teacher allocation",
-              "Which teacher is available for each subject and period"
-            ],
-            [
-              "Multiple sections",
-              "How classes are scheduled across the required sections"
-            ],
-            [
-              "Breaks and school-day structure",
-              "Where breaks fit within the period plan"
-            ],
-            [
-              "Subject weightage",
-              "How often a subject needs to appear in the timetable"
-            ],
+            ["Planning challenge", "What the timetable must account for"],
+            ["Teacher allocation", "Which teacher is available for each subject and period"],
+            ["Multiple sections", "How classes are scheduled across the required sections"],
+            ["Breaks and school-day structure", "Where breaks fit within the period plan"],
+            ["Subject weightage", "How often a subject needs to appear in the timetable"],
             [
               "Changes during the term",
               "How teams review scheduling clashes and coordinate substitute-teacher arrangements"
@@ -129,10 +114,7 @@
         {
           "type": "table",
           "rows": [
-            [
-              "Team",
-              "How the timetable workflow supports their work"
-            ],
+            ["Team", "How the timetable workflow supports their work"],
             [
               "Academic coordinators",
               "Set up the scheduling inputs, review the timetable and manage adjustments."

@@ -1,25 +1,365 @@
 'use client';
-import {useRef,useState} from 'react';
-import {Check,BookOpen} from 'lucide-react';
-import {Accordion,AccordionItem,AccordionTrigger,AccordionContent} from '@/components/ui/accordion';
-import {Table,TableHeader,TableRow,TableHead,TableBody,TableCell} from '@/components/ui/table';
-import {ProductCanvas} from './product';
-import {Eyebrow,TextLink} from './ui';
-import {useStory} from './motion';
-import type {Module} from '@/content/modules';
-export {MotionSetup} from './motion';
-export type StoryStep={time:string;label:string;title:string;body:string;link?:string;mode?:number;task?:string;value?:string};
-export function ScrollJourney({steps,kind='day',children}:{steps:StoryStep[],kind?:string,children?:(active:number)=>React.ReactNode}){const root=useRef<HTMLDivElement>(null);const {active}=useStory(root);return <div className={`scroll-journey journey-${kind}`} ref={root}><div className="journey-copy"><div className="journey-line" aria-hidden="true"><i/></div>{steps.map((s,i)=><article className={`story-step ${active===i?'is-active':''}`} key={s.time}><div className="story-marker"><span className="mono">{s.time}</span><i/></div><div className="story-copy"><span className="mono story-label">{s.label}</span><h3>{s.title}</h3><p>{s.body}</p>{s.task&&<div className="story-task"><span className="mono">IN YOUR DAY</span><p>{s.task}</p><p className="task-value"><Check size={16}/>{s.value}</p></div>}{s.link&&<TextLink href={s.link}>{kind==='role'?'Explore this perspective':'Explore this workflow'}</TextLink>}</div><div className="mobile-scene">{children?children(i):<ProductCanvas mode={s.mode}/>}</div></article>)}</div><div className="journey-stage"><div className="stage-rail"><span className="mono">{kind==='role'?'YOUR SCHOOL, YOUR VIEW':'ONE CONNECTED WORKSPACE'}</span><span className="mono">{String(active+1).padStart(2,'0')} / {String(steps.length).padStart(2,'0')}</span></div>{children?children(active):<ProductCanvas mode={steps[active].mode}/>}<div className="stage-progress" aria-hidden="true">{steps.map((s,i)=><span className={i<=active?'complete':''} key={s.time}/>)}</div><p className="visual-caption">Illustrative workflows and sample data. Confirm the exact screens, controls and configuration in your demo.</p></div></div>}
-const day:StoryStep[]=[
-{time:'08:30',label:'School begins',title:'Start with who’s here.',body:'A teacher records the class register. Attendance gives the school a starting point for the day and helps identify families who may need an update.',link:'/school-management-system/scheduling',mode:1},
-{time:'10:30',label:'Learning is happening',title:'Let the learning flow.',body:'Share a task, add the supporting material, and follow student submissions. The class roster becomes a view of the work taking shape.',link:'/school-management-system/learning',mode:2},
-{time:'13:00',label:'Behind the scenes',title:'Keep the details in view.',body:'Administrators coordinate timetables, fee records, staff and resources. Each checked detail helps the next colleague keep the day moving.',link:'/school-management-system/finance',mode:4},
-{time:'15:30',label:'Beyond the school gate',title:'Bring families into the day.',body:'A classroom notice, a learning task, an attendance update. Give parents practical context and a clear place to look for school and transport information.',link:'/school-management-system/communication',mode:3},
-{time:'16:30',label:'After school',title:'Tomorrow, better prepared.',body:'Review the day’s records, prepare the next lesson and explore where AI can help with a first draft. People bring the context and decide what comes next.',link:'/ai',mode:5}];
-export function DayStory(){return <section className="school-day-section" id="school-day"><div className="wrap"><Eyebrow>01 / The school day</Eyebrow><div className="section-heading"><h2>One day.<br/><span>So many connections.</span></h2><p>From the first register to the final update. Follow the people, information and small handovers that make a school work.</p></div><ScrollJourney steps={day}/><div className="day-resolution"><span className="mono">TODAY CONNECTS TO TOMORROW</span><p>One school.<br/><span>One connected platform.</span></p></div></div></section>}
-export const roles=[{id:'leaders',name:'School leaders',title:'See the day. Ask better questions.',body:'Bring attendance, academic progress and operational records into your school’s review conversations. Use the information to focus attention, then add the context only your team can provide.',task:'A morning review of attendance and the teaching schedule.',value:'A clearer starting point for decisions and follow-up.',mode:0},{id:'administrators',name:'Administrators',title:'Give everyday details a clear home.',body:'Follow the records behind a functioning school: timetables, fees, notices and staff coordination. Make each handover easier for the colleague who picks up the next task.',task:'Check the day’s schedule and prepare a school notice.',value:'Less uncertainty about what needs to happen next.',mode:4},{id:'teachers',name:'Teachers',title:'Keep your attention on the learning.',body:'Record the register, share assignments and review student work. Keep classroom tasks connected to the resources and feedback that help the next lesson take shape.',task:'Share a science task, then review the submitted work.',value:'A practical view of learning beyond the classroom.',mode:2},{id:'parents',name:'Parents',title:'A little closer to their school day.',body:'Follow attendance, learning tasks and school updates through the parent experience. Know what has been shared and where a question needs a conversation with the school.',task:'Find a class update and the associated learning task.',value:'Useful context for supporting a child at home.',mode:3}];
-export function Roles(){return <section className="roles-section section wrap"><Eyebrow>03 / Every perspective</Eyebrow><div className="section-heading"><h2>One platform.<br/>Different perspectives.</h2><p>The same school day looks different from every role. Give each person the context their next task needs.</p></div><ScrollJourney kind="role" steps={roles.map((r,i)=>({time:`0${i+1}`,label:r.name,title:r.title,body:r.body,task:r.task,value:r.value,mode:r.mode,link:`/solutions/${r.id}`}))}/></section>}
-export function RoleJourney({tasks,mode}:{tasks:string[][],mode:number}){return <ScrollJourney kind="role" steps={tasks.map(([title,body],i)=>({time:`0${i+1}`,label:'Your connected school day',title,body,mode:[mode,mode===3?2:1,mode===2?5:4][i]}))}/>}
-export function FAQs({items}:{items:[string,React.ReactNode][]}){const [expanded,setExpanded]=useState("");return <Accordion type="single" collapsible value={expanded} onValueChange={setExpanded} className="faq-list">{items.map(([q,a],i)=><AccordionItem value={`faq-${i}`} key={q}><AccordionTrigger>{q}</AccordionTrigger><AccordionContent forceMount hidden={expanded!==`faq-${i}`} style={expanded!==`faq-${i}`?{display:"none"}:undefined}><p>{a}</p></AccordionContent></AccordionItem>)}</Accordion>}
-export function ModuleVisual({module,step=0}:{module:Module,step?:number}){return <div className={`module-visual module-${module.slug}`}><div className="module-window-head"><span>{module.viewTitle}</span><span>Illustrative preview · sample data</span></div><div className="module-window-content"><div className="module-window-title"><span className="module-icon"><BookOpen size={22}/></span><div><span className="tiny-eyebrow">YOUR SCHOOL WORKSPACE</span><h3>{module.title}</h3></div></div><div className="sample-table"><Table><TableHeader><TableRow>{module.columns.map((x,i)=><TableHead key={i}>{x}</TableHead>)}</TableRow></TableHeader><TableBody>{module.rows.map((r,i)=><TableRow key={i} className={i===step?'highlight-row':''}>{r.map((c,j)=><TableCell key={j}>{j===2?<span className="table-status">{c}</span>:c}</TableCell>)}</TableRow>)}</TableBody></Table></div><div className="module-annotation"><span>{String(step+1).padStart(2,'0')}</span><div><strong>{module.workflow[step].output}</strong><p>Illustrative focus for this stage of the workflow.</p></div><Check size={20}/></div></div></div>}
-export function ModuleWorkflow({module}:{module:Module}){return <section className="section workflow-section" id="workflow"><div className="wrap"><Eyebrow>A representative workflow</Eyebrow><div className="section-heading"><h2>Make the next step<br/>easier to follow.</h2><p>Follow a practical sequence. Your school’s configuration determines the exact screens and controls.</p></div><ScrollJourney kind="workflow" steps={module.workflow.map((s,i)=>({time:`0${i+1}`,label:s.output,title:s.title,body:s.body}))}>{active=><ModuleVisual module={module} step={active}/>}</ScrollJourney></div></section>}
+import { useRef, useState } from 'react';
+import { Check, BookOpen } from 'lucide-react';
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from '@/components/ui/accordion';
+import {
+  Table,
+  TableHeader,
+  TableRow,
+  TableHead,
+  TableBody,
+  TableCell,
+} from '@/components/ui/table';
+import { ProductCanvas } from './product';
+import { Eyebrow, TextLink } from './ui';
+import { useStory } from './motion';
+import type { Module } from '@/content/modules';
+export { MotionSetup } from './motion';
+export type StoryStep = {
+  time: string;
+  label: string;
+  title: string;
+  body: string;
+  link?: string;
+  mode?: number;
+  task?: string;
+  value?: string;
+};
+export function ScrollJourney({
+  steps,
+  kind = 'day',
+  children,
+}: {
+  steps: StoryStep[];
+  kind?: string;
+  children?: (active: number) => React.ReactNode;
+}) {
+  const root = useRef<HTMLDivElement>(null);
+  const { active } = useStory(root);
+  return (
+    <div className={`scroll-journey journey-${kind}`} ref={root}>
+      <div className="journey-copy">
+        <div className="journey-line" aria-hidden="true">
+          <i />
+        </div>
+        {steps.map((s, i) => (
+          <article className={`story-step ${active === i ? 'is-active' : ''}`} key={s.time}>
+            <div className="story-marker">
+              <span className="mono">{s.time}</span>
+              <i />
+            </div>
+            <div className="story-copy">
+              <span className="mono story-label">{s.label}</span>
+              <h3>{s.title}</h3>
+              <p>{s.body}</p>
+              {s.task && (
+                <div className="story-task">
+                  <span className="mono">IN YOUR DAY</span>
+                  <p>{s.task}</p>
+                  <p className="task-value">
+                    <Check size={16} />
+                    {s.value}
+                  </p>
+                </div>
+              )}
+              {s.link && (
+                <TextLink href={s.link}>
+                  {kind === 'role' ? 'Explore this perspective' : 'Explore this workflow'}
+                </TextLink>
+              )}
+            </div>
+            <div className="mobile-scene">
+              {children ? children(i) : <ProductCanvas mode={s.mode} />}
+            </div>
+          </article>
+        ))}
+      </div>
+      <div className="journey-stage">
+        <div className="stage-rail">
+          <span className="mono">
+            {kind === 'role' ? 'YOUR SCHOOL, YOUR VIEW' : 'ONE CONNECTED WORKSPACE'}
+          </span>
+          <span className="mono">
+            {String(active + 1).padStart(2, '0')} / {String(steps.length).padStart(2, '0')}
+          </span>
+        </div>
+        {children ? children(active) : <ProductCanvas mode={steps[active].mode} />}
+        <div className="stage-progress" aria-hidden="true">
+          {steps.map((s, i) => (
+            <span className={i <= active ? 'complete' : ''} key={s.time} />
+          ))}
+        </div>
+        <p className="visual-caption">
+          Illustrative workflows and sample data. Confirm the exact screens, controls and
+          configuration in your demo.
+        </p>
+      </div>
+    </div>
+  );
+}
+const day: StoryStep[] = [
+  {
+    time: '08:30',
+    label: 'School begins',
+    title: 'Start with who’s here.',
+    body: 'A teacher records the class register. Attendance gives the school a starting point for the day and helps identify families who may need an update.',
+    link: '/school-management-system/scheduling',
+    mode: 1,
+  },
+  {
+    time: '10:30',
+    label: 'Learning is happening',
+    title: 'Let the learning flow.',
+    body: 'Share a task, add the supporting material, and follow student submissions. The class roster becomes a view of the work taking shape.',
+    link: '/school-management-system/learning',
+    mode: 2,
+  },
+  {
+    time: '13:00',
+    label: 'Behind the scenes',
+    title: 'Keep the details in view.',
+    body: 'Administrators coordinate timetables, fee records, staff and resources. Each checked detail helps the next colleague keep the day moving.',
+    link: '/school-management-system/finance',
+    mode: 4,
+  },
+  {
+    time: '15:30',
+    label: 'Beyond the school gate',
+    title: 'Bring families into the day.',
+    body: 'A classroom notice, a learning task, an attendance update. Give parents practical context and a clear place to look for school and transport information.',
+    link: '/school-management-system/communication',
+    mode: 3,
+  },
+  {
+    time: '16:30',
+    label: 'After school',
+    title: 'Tomorrow, better prepared.',
+    body: 'Review the day’s records, prepare the next lesson and explore where AI can help with a first draft. People bring the context and decide what comes next.',
+    link: '/ai',
+    mode: 5,
+  },
+];
+export function DayStory() {
+  return (
+    <section className="school-day-section" id="school-day">
+      <div className="wrap">
+        <Eyebrow>01 / The school day</Eyebrow>
+        <div className="section-heading">
+          <h2>
+            One day.
+            <br />
+            <span>So many connections.</span>
+          </h2>
+          <p>
+            From the first register to the final update. Follow the people, information and small
+            handovers that make a school work.
+          </p>
+        </div>
+        <ScrollJourney steps={day} />
+        <div className="day-resolution">
+          <span className="mono">TODAY CONNECTS TO TOMORROW</span>
+          <p>
+            One school.
+            <br />
+            <span>One connected platform.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+export const roles = [
+  {
+    id: 'leaders',
+    name: 'School leaders',
+    title: 'See the day. Ask better questions.',
+    body: 'Bring attendance, academic progress and operational records into your school’s review conversations. Use the information to focus attention, then add the context only your team can provide.',
+    task: 'A morning review of attendance and the teaching schedule.',
+    value: 'A clearer starting point for decisions and follow-up.',
+    mode: 0,
+  },
+  {
+    id: 'administrators',
+    name: 'Administrators',
+    title: 'Give everyday details a clear home.',
+    body: 'Follow the records behind a functioning school: timetables, fees, notices and staff coordination. Make each handover easier for the colleague who picks up the next task.',
+    task: 'Check the day’s schedule and prepare a school notice.',
+    value: 'Less uncertainty about what needs to happen next.',
+    mode: 4,
+  },
+  {
+    id: 'teachers',
+    name: 'Teachers',
+    title: 'Keep your attention on the learning.',
+    body: 'Record the register, share assignments and review student work. Keep classroom tasks connected to the resources and feedback that help the next lesson take shape.',
+    task: 'Share a science task, then review the submitted work.',
+    value: 'A practical view of learning beyond the classroom.',
+    mode: 2,
+  },
+  {
+    id: 'parents',
+    name: 'Parents',
+    title: 'A little closer to their school day.',
+    body: 'Follow attendance, learning tasks and school updates through the parent experience. Know what has been shared and where a question needs a conversation with the school.',
+    task: 'Find a class update and the associated learning task.',
+    value: 'Useful context for supporting a child at home.',
+    mode: 3,
+  },
+];
+export function Roles() {
+  return (
+    <section className="roles-section section wrap">
+      <Eyebrow>03 / Every perspective</Eyebrow>
+      <div className="section-heading">
+        <h2>
+          One platform.
+          <br />
+          Different perspectives.
+        </h2>
+        <p>
+          The same school day looks different from every role. Give each person the context their
+          next task needs.
+        </p>
+      </div>
+      <ScrollJourney
+        kind="role"
+        steps={roles.map((r, i) => ({
+          time: `0${i + 1}`,
+          label: r.name,
+          title: r.title,
+          body: r.body,
+          task: r.task,
+          value: r.value,
+          mode: r.mode,
+          link: `/solutions/${r.id}`,
+        }))}
+      />
+    </section>
+  );
+}
+export function RoleJourney({ tasks, mode }: { tasks: string[][]; mode: number }) {
+  return (
+    <ScrollJourney
+      kind="role"
+      steps={tasks.map(([title, body], i) => ({
+        time: `0${i + 1}`,
+        label: 'Your connected school day',
+        title,
+        body,
+        mode: [mode, mode === 3 ? 2 : 1, mode === 2 ? 5 : 4][i],
+      }))}
+    />
+  );
+}
+export function FAQs({ items }: { items: [string, React.ReactNode][] }) {
+  const [expanded, setExpanded] = useState('');
+  return (
+    <Accordion
+      type="single"
+      collapsible
+      value={expanded}
+      onValueChange={setExpanded}
+      className="faq-list"
+    >
+      {items.map(([q, a], i) => (
+        <AccordionItem value={`faq-${i}`} key={q}>
+          <AccordionTrigger>{q}</AccordionTrigger>
+          <AccordionContent
+            forceMount
+            hidden={expanded !== `faq-${i}`}
+            style={expanded !== `faq-${i}` ? { display: 'none' } : undefined}
+          >
+            <p>{a}</p>
+          </AccordionContent>
+        </AccordionItem>
+      ))}
+    </Accordion>
+  );
+}
+export function ModuleVisual({ module, step = 0 }: { module: Module; step?: number }) {
+  return (
+    <div className={`module-visual module-${module.slug}`}>
+      <div className="module-window-head">
+        <span>{module.viewTitle}</span>
+        <span>Illustrative preview · sample data</span>
+      </div>
+      <div className="module-window-content">
+        <div className="module-window-title">
+          <span className="module-icon">
+            <BookOpen size={22} />
+          </span>
+          <div>
+            <span className="tiny-eyebrow">YOUR SCHOOL WORKSPACE</span>
+            <h3>{module.title}</h3>
+          </div>
+        </div>
+        <div className="sample-table">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                {module.columns.map((x, i) => (
+                  <TableHead key={i}>{x}</TableHead>
+                ))}
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {module.rows.map((r, i) => (
+                <TableRow key={i} className={i === step ? 'highlight-row' : ''}>
+                  {r.map((c, j) => (
+                    <TableCell key={j}>
+                      {j === 2 ? <span className="table-status">{c}</span> : c}
+                    </TableCell>
+                  ))}
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+        <div className="module-annotation">
+          <span>{String(step + 1).padStart(2, '0')}</span>
+          <div>
+            <strong>{module.workflow[step].output}</strong>
+            <p>Illustrative focus for this stage of the workflow.</p>
+          </div>
+          <Check size={20} />
+        </div>
+      </div>
+    </div>
+  );
+}
+export function ModuleWorkflow({ module }: { module: Module }) {
+  return (
+    <section className="section workflow-section" id="workflow">
+      <div className="wrap">
+        <Eyebrow>A representative workflow</Eyebrow>
+        <div className="section-heading">
+          <h2>
+            Make the next step
+            <br />
+            easier to follow.
+          </h2>
+          <p>
+            Follow a practical sequence. Your school’s configuration determines the exact screens
+            and controls.
+          </p>
+        </div>
+        <ScrollJourney
+          kind="workflow"
+          steps={module.workflow.map((s, i) => ({
+            time: `0${i + 1}`,
+            label: s.output,
+            title: s.title,
+            body: s.body,
+          }))}
+        >
+          {(active) => <ModuleVisual module={module} step={active} />}
+        </ScrollJourney>
+      </div>
+    </section>
+  );
+}

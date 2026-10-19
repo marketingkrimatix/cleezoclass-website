@@ -16,13 +16,19 @@ import {
   HumanControlledAI,
   SchoolDemo,
   EditorialResources,
-} from "@/components/site/immersive";
-import { Adoption, HomeFAQs } from "@/components/site/sections";
-import { Closing } from "@/components/site/ui";
+} from '@/components/site/immersive';
+import { Adoption, HomeFAQs } from '@/components/site/sections';
+import { Closing } from '@/components/site/ui';
 export const metadata: Metadata = {
   title: { absolute: homepage.metadata.title },
   description: homepage.metadata.description,
-  openGraph: { ...homepage.metadata, siteName: 'Cleezo Class', type: 'website', locale: 'en_IN', url: siteOrigin },
+  openGraph: {
+    ...homepage.metadata,
+    siteName: 'Cleezo Class',
+    type: 'website',
+    locale: 'en_IN',
+    url: siteOrigin,
+  },
   twitter: { ...homepage.metadata, card: 'summary' },
 };
 export default function Home() {
