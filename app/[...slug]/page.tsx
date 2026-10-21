@@ -121,11 +121,11 @@ export async function generateMetadata({
   return {
     title: info[0],
     description: info[1],
-    alternates: { canonical: siteOrigin + '/' + path },
+    alternates: { canonical: siteOrigin + '/' + path + '/' },
     openGraph: {
       title: info[0] + ' | Cleezo Class',
       description: info[1],
-      url: siteOrigin + '/' + path,
+      url: siteOrigin + '/' + path + '/',
       type: 'website',
     },
     twitter: { card: 'summary', title: info[0] + ' | Cleezo Class', description: info[1] },

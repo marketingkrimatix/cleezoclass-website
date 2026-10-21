@@ -426,7 +426,7 @@ export function ConnectionMap() {
           ))}
           <p>
             Finance teams can manage class-wise fee heads, concessions, recorded payments,
-            outstanding dues and receipts with Cleezo?s{' '}
+            outstanding dues and receipts with Cleezo Class&apos;s{' '}
             <Link
               className="homepage-context-link"
               href="/features/school-fee-management-software/"

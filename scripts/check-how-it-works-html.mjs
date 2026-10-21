@@ -67,7 +67,7 @@ const title = md.match(/\| SEO title \| (.+) \|/)[1].replace('\\|', '|');
 const description = md.match(/\| Meta description \| (.+) \|/)[1];
 assert.ok(decode(html).includes(`<title>${title}</title>`));
 assert.ok(decode(html).includes(`<meta name="description" content="${description}"`));
-assert.ok(html.includes('<link rel="canonical" href="https://cleezoclass.com/how-it-works/"'));
+assert.ok(html.includes('<link rel="canonical" href="https://www.cleezoclass.com/how-it-works/"'));
 const ctas = [...main.matchAll(/<a\b[^>]*class="button[^>]*>/g)];
 assert.equal(ctas.length, 4);
 assert.ok(ctas.every(([tag]) => tag.includes('href="/book-demo/"')));
@@ -88,7 +88,7 @@ for (const [file, anchor] of [
 }
 const nav = html.match(/<nav[^>]*aria-label="Primary"[\s\S]*?<\/nav>/)[0];
 assert.equal((nav.match(/href="\/how-it-works\/"/g) || []).length, 1);
-assert.ok(read('out/sitemap.xml').includes('<loc>https://cleezoclass.com/how-it-works/</loc>'));
+assert.ok(read('out/sitemap.xml').includes('<loc>https://www.cleezoclass.com/how-it-works/</loc>'));
 const production = process.argv.includes('--production');
 assert.ok(
   html.includes(`name="robots" content="${production ? 'index, follow' : 'noindex, follow'}"`),
@@ -108,6 +108,9 @@ for (const [env, expected] of [
   [{ NODE_ENV: 'production', VERCEL_ENV: 'preview', SITE_ENV: 'production' }, false],
   [{ NODE_ENV: 'production', SITE_ENV: 'production' }, true],
   [{ NODE_ENV: 'development', SITE_ENV: 'production' }, false],
+  [{ NODE_ENV: 'production', CONTEXT: 'production', URL: 'https://preview.netlify.app' }, false],
+  [{ NODE_ENV: 'production', CONTEXT: 'production', URL: 'https://www.cleezoclass.com' }, true],
+  [{ NODE_ENV: 'production', CONTEXT: 'deploy-preview', URL: 'https://www.cleezoclass.com' }, false],
 ]) {
   const context = {
     exports: {},
@@ -115,7 +118,7 @@ for (const [env, expected] of [
   };
   vm.runInNewContext(siteCode, context);
   assert.equal(context.exports.publicIndexing, expected);
-  assert.equal(context.exports.siteOrigin, 'https://cleezoclass.com');
+  assert.equal(context.exports.siteOrigin, 'https://www.cleezoclass.com');
 }
 console.log(
   'PASS: approved Markdown copy, headings, tables, HTML FAQs, CTAs, links, metadata, sitemap and indexing contexts.',

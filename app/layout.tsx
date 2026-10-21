@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     'Explore school management for attendance, academics, finance and parent communication. Give every role a clearer view with Cleezo Class.',
   metadataBase: new URL(siteOrigin),
-  alternates: { canonical: siteOrigin },
+  alternates: { canonical: siteOrigin + "/" },
   robots: { index: publicIndexing, follow: true },
   icons: { icon: '/cleezo-mark.png', shortcut: '/cleezo-mark.png' },
   openGraph: {

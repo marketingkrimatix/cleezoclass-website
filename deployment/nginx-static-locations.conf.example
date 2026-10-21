@@ -1,0 +1,13 @@
+﻿# Merge into the EXISTING www.cleezoclass.com HTTPS server block.
+# Set root to the directory containing the COMPLETE freshly built out/ contents.
+# Preserve existing certificates, CRM/proxy locations and other applications.
+# Do not use a SPA fallback such as: try_files $uri $uri/ /index.html;
+index index.html;
+location / {
+    try_files $uri $uri/ =404;
+}
+error_page 404 /404.html;
+location = /404.html {
+    internal;
+}
+# Validate with nginx -t before reloading the existing server.

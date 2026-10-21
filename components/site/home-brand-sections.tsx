@@ -54,9 +54,14 @@ export function StudentSpotlight() {
           </p>
           <div className={styles.preview} aria-label="Illustrative Cleezo Class workflow overview">
             <div className={styles.previewBar}>
-              <strong>
-                <span /> cleezo <small>CLASS</small>
-              </strong>
+              <Image
+                className={styles.previewLogo}
+                src="/cleezoclass-full-logo.png"
+                width={754}
+                height={268}
+                sizes="120px"
+                alt="Cleezo Class"
+              />
               <span>Connected workflows</span>
             </div>
             <div className={styles.previewBody}>

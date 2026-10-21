@@ -27,7 +27,7 @@ assert.equal((html.match(/<h1\b/g) || []).length, 1);
 assert.ok(decode(html).includes('<title>' + copy.metadata.title + '</title>'));
 assert.ok(decode(html).includes('content="' + copy.metadata.description + '"'));
 assert.ok(/rel="canonical"[^>]+student-information-system\//.test(html));
-assert.ok(html.includes('noindex'));
+assert.ok(html.includes(`name="robots" content="${process.argv.includes('--production') ? 'index, follow' : 'noindex, follow'}"`));
 assert.ok(html.includes('summary_large_image'));
 assert.ok(html.includes('/student-information-system-og.png'));
 assert.ok(!rendered.includes('Implementation notes'));
@@ -49,5 +49,5 @@ const png = readFileSync('out/student-information-system-og.png');
 assert.equal(png.readUInt32BE(16), 1200);
 assert.equal(png.readUInt32BE(20), 630);
 console.log(
-  'Verified all supplied public copy, nine rendered FAQ answers, links, schema, preview noindex, metadata, sitemap and 1200×630 social image.',
+  'Verified all supplied public copy, nine rendered FAQ answers, links, schema, environment robots, metadata, sitemap and 1200×630 social image.',
 );

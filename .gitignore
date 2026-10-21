@@ -47,3 +47,6 @@ next-env.d.ts
 /cleezo-class/
 *.rar
 *.zip
+
+# Temporary live SEO response captures.
+/.seo-audit/

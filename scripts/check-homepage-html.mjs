@@ -56,9 +56,8 @@ assert.equal(
 
 assert.equal((html.match(/school ERP software/g) || []).length, 1);
 assert.ok(
-  html.includes(
-    'Cleezo Class brings the capabilities of school ERP software—admissions, finance, academics, attendance, payroll and parent communication—into one connected system.',
-  ),
+  /<a\b[^>]*href="\/school-erp-software\/"[^>]*>school ERP software<\/a>/.test(html),
+  'Missing contextual school ERP software link',
 );
 assert.ok(html.includes('Manage exams and report cards.'));
 assert.ok(!html.includes('Manages exams and report cards'));

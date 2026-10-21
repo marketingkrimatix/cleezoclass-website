@@ -93,7 +93,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Connect student records with class-wise fee structures, payments by cash, UPI, cheque or bank transfer, QR-verifiable receipts, approved concessions, dues and student passbooks."
+          "text": "Connect student records with class-wise fee structures, payments by cash, UPI, cheque or bank transfer, QR-verifiable receipts, approved concessions and dues."
         },
         {
           "type": "heading",
@@ -124,7 +124,7 @@
               "Front desk and admissions",
               "Enquiries, counselling, assessments, follow-ups and enrolment conversion"
             ],
-            ["Accounts", "Fee structures, collections, receipts, dues and student passbooks"],
+            ["Accounts", "Fee structures, collections, receipts and dues"],
             [
               "Administration",
               "Student records, attendance exceptions, academics, examinations and operations"
