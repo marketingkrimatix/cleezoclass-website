@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "build": "node -e \"const fs = require('fs'); if (fs.existsSync('out')) fs.rmSync('out', { recursive: true, force: true });\" && next build --webpack",
     "start": "node scripts/serve-static.mjs",
     "lint": "eslint . --ignore-pattern out --ignore-pattern .next",
     "format": "prettier --write .",

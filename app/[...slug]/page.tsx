@@ -18,7 +18,6 @@ import { AliasRedirect } from '@/components/site/alias-redirect';
 import { sitePaths } from '@/content/routes';
 import { siteOrigin } from '@/content/site';
 const aliases: Record<string, string> = {
-  Features: '/platform',
   'who-its-for': '/solutions',
   'school-management-system': '/platform',
   login: 'https://cleezoclass.com/CRM',
@@ -83,10 +82,20 @@ export function generateStaticParams() {
   ];
   // Static exports must also be safe on case-insensitive filesystems (Windows).
   // A case-only alias would overwrite the real page and can create a reload loop.
+  const appSegments = new Set([
+    'features',
+    'resources',
+    'how-it-works',
+    'school-erp-software',
+    'student-information-system',
+  ]);
   const exportedPaths = new Set<string>();
   for (const path of paths) {
     const key = path.toLowerCase();
     if (exportedPaths.has(key)) throw new Error(`Conflicting static export route: /${path}`);
+    if (appSegments.has(key) && path !== key) {
+      throw new Error(`Route casing conflict with app directory: /${path}`);
+    }
     exportedPaths.add(key);
   }
   return paths.map((path) => ({ slug: path.split('/') }));
