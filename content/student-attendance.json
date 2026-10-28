@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Student Attendance Management System for Schools | Cleezo Class",
+    "description": "Explore a student attendance management system for schools. Connect compatible biometric/RFID devices, review attendance records and support parent updates.",
+    "canonical": "https://www.cleezoclass.com/features/student-attendance-management-system/"
+  },
+  "sections": [
+    {
+      "title": "Hero",
+      "blocks": [
+        "**Eyebrow:** Student attendance, connected to the school day",
+        "# Student Attendance Management System for Schools",
+        "Bring student attendance records together, review attendance exceptions, and connect attendance with student information in Cleezo Class.",
+        "Cleezo Class supports attendance integration with compatible biometric and RFID devices. School teams can use the connected records alongside student profiles and supported report-card formats.",
+        "**Primary CTA:** [Email Cleezo Class About Attendance](mailto:support@cleezoclass.com?subject=Cleezo%20Class%20Attendance%20Enquiry)  \n**Secondary CTA:** [Explore School ERP Software](/school-erp-software/)",
+        "**Capability highlights:** Student attendance records · Attendance exception review · Compatible biometric/RFID integration · Parent communication · Report-card attendance percentages"
+      ]
+    },
+    {
+      "title": "What is a student attendance management system?",
+      "blocks": [
+        "A **student attendance management system** brings attendance information into an organised school workflow. Instead of checking separate records across departments, authorised staff can review the attendance information associated with students and connect it with relevant school administration tasks.",
+        "For schools using biometric or RFID devices, the important step is connecting supported device records with the wider student information system—not simply capturing a fingerprint or card scan."
+      ]
+    },
+    {
+      "title": "Why attendance records become difficult to manage",
+      "blocks": [
+        "An attendance record may come from a school device while the student profile, follow-up and report card are managed elsewhere. School teams then have to piece information together across different workflows.",
+        "Cleezo Class connects student attendance with the broader school ERP environment so teams can review records and use relevant information in student administration and parent communication."
+      ]
+    },
+    {
+      "title": "Biometric attendance system for schools: connect compatible devices",
+      "blocks": [
+        "Cleezo Class supports integration with compatible networked biometric and RFID attendance devices. Attendance records from a supported setup feed into the school's student-attendance workflow for review by authorised users.",
+        "**How attendance is captured:** Teachers cannot manually mark student attendance in the Cleezo Class teacher web portal. The documented student-attendance workflow uses connected biometric or RFID devices, so schools should check device compatibility before implementation.",
+        "### Connect attendance data to student records",
+        "Use supported biometric or RFID input records within Cleezo Class rather than treating the attendance device as a separate system.",
+        "### Review student attendance records and attendance exceptions",
+        "Administrators can review attendance information and entries that need checking alongside the relevant student record. The exact correction and approval steps should be demonstrated for the school's workflow before implementation.",
+        "### Check device compatibility before setup",
+        "Confirm supported device models, connectivity and integration requirements with the Cleezo Class team. Compatibility with every device brand is not implied.",
+        "**CTA:** [Discuss Your Attendance Setup by Email](mailto:support@cleezoclass.com?subject=Biometric%20Attendance%20Integration%20Enquiry)"
+      ]
+    },
+    {
+      "title": "Attendance review, student information and reporting",
+      "blocks": [
+        "### Review class-wise attendance and exceptions",
+        "The **class-wise student attendance register** shows student name, class, section, present days, informed and uninformed days, total days and attendance percentage. School teams can also review student absentees, leave requests and irregular-attendance entries, including informed versus uninformed absences.",
+        "Available review controls include **class, section and month selection** in attendance reporting, a **date picker** in the director's leave workflow, an **informed/uninformed** filter in irregular-attendance review, and text search in the class-wise report. Controls vary by screen and user role.",
+        "### Use monthly reports and attendance exports",
+        "The monthly student attendance report provides a **six-month present-versus-total-days view** and a **three-month rolling average attendance percentage**.",
+        "Attendance reporting includes **Excel (.xlsx), PDF and PNG exports** in the administrative reports area. The separate irregular-attendance view supports a tab-separated **.xls** download and printing. These formats belong to their respective screens; they are not promised for every attendance report.",
+        "### Keep records connected with student information",
+        "Attendance is part of the wider [**Student Information System**](/student-information-system/), where schools also manage enrolment details and academic information. Relevant access depends on school user roles.",
+        "### Include attendance percentages on report cards",
+        "Cleezo Class supports report-card templates that can show **attendance percentages** alongside academic results. Report-card attendance percentages are a distinct capability from the class-wise and monthly attendance reports described above.",
+        "### Support parent attendance updates",
+        "Schools can use their paired official WhatsApp workflow for attendance-related parent alerts. The school needs to complete the communication pairing and permissions as part of setup."
+      ]
+    },
+    {
+      "title": "How the attendance workflow fits together",
+      "blocks": [
+        "**1. Bring in supported attendance records**  \nConnect compatible biometric or RFID attendance inputs to the school's attendance workflow.",
+        "**2. Review attendance information**  \nAuthorised staff review student attendance records and attendance exceptions that need attention.",
+        "**3. Use the connected student record**  \nKeep attendance information available alongside other relevant student administration details.",
+        "**4. Support reporting and communication**  \nUse class-wise and monthly attendance reporting, supported exports, report-card attendance percentages and the school's paired WhatsApp communication workflow."
+      ]
+    },
+    {
+      "title": "What should schools check before choosing attendance software?",
+      "blocks": [
+        "1. Which biometric or RFID device models are compatible with our installation?\n2. Who will configure device connectivity and verify that attendance records match the correct student profiles?\n3. Which class-wise, monthly and irregular-attendance views, filters, exports and review permissions fit our needs?\n4. Who can review attendance records and resolve exceptions?\n5. How do attendance percentages appear in our required report-card format?\n6. What is needed to send attendance alerts through our school's official WhatsApp account?",
+        "Explore Cleezo Class [**School ERP Software**](/school-erp-software/) and the [**School Management Platform**](/platform/) to see how attendance connects with other school operations."
+      ]
+    },
+    {
+      "title": "Student attendance management FAQs",
+      "blocks": [
+        "### Can Cleezo Class integrate with biometric and RFID attendance devices?",
+        "Yes. Cleezo Class supports integration with compatible networked biometric and RFID attendance devices. Confirm the device model and connection requirements before setup.",
+        "### Can schools review attendance exceptions?",
+        "Yes. The documented student-information workflow provides for reviewing student attendance records and attendance exceptions. Specific correction permissions and steps should be confirmed in a product demonstration.",
+        "### Can parents receive attendance alerts?",
+        "Cleezo Class supports attendance-related alerts through the school's paired official WhatsApp workflow. Pairing and permissions are set up for the school.",
+        "### How does attendance connect with student records and report cards?",
+        "Attendance records are part of the connected student information workflow. Schools can review attendance alongside student profiles, and supported report-card templates can display attendance percentages alongside academic results.",
+        "### Can teachers manually mark student attendance without biometric or RFID hardware?",
+        "No. The audited Cleezo Class teacher web workspace does not include a manual daily student-attendance register or present/absent marking screen. The documented attendance-capture workflow uses connected biometric or RFID devices.",
+        "### Which attendance reports and downloads are available?",
+        "Cleezo Class includes a class-wise attendance register, student absentees and leave records, irregular-attendance review and a monthly attendance report. The administrative reporting area supports Excel, PDF and PNG downloads; irregular-attendance review also offers a tab-separated .xls download and printing. Available filters and exports depend on the particular screen and user role."
+      ]
+    },
+    {
+      "title": "Make student attendance easier to follow",
+      "blocks": [
+        "Connect attendance records with authorised review, student information, supported report-card formats and relevant parent communication.",
+        "Discuss your school's attendance-capture method, device compatibility and reporting needs with the Cleezo Class team.",
+        "**Primary CTA:** [Email Cleezo Class About Attendance](mailto:support@cleezoclass.com?subject=Cleezo%20Class%20Attendance%20Enquiry)  \n**Secondary CTA:** [Explore School ERP Software](/school-erp-software/)"
+      ]
+    }
+  ]
+}

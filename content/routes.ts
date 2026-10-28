@@ -8,6 +8,7 @@ export const sitePaths = [
   '/features/school-timetable-software',
   '/features/admission-management-software',
   '/features/school-fee-management-software',
+  '/features/student-attendance-management-system',
   '/platform',
   '/solutions',
   '/solutions/leaders',

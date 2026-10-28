@@ -13,6 +13,7 @@ import {
   ContactPage,
   DemoPage,
   PolicyPage,
+  roleContent,
 } from '@/components/site/pages';
 import { AliasRedirect } from '@/components/site/alias-redirect';
 import { sitePaths } from '@/content/routes';
@@ -71,6 +72,7 @@ export function generateStaticParams() {
           Boolean(path) &&
           path !== '/resources/school-management-evaluation-checklist' &&
           path !== '/features/school-fee-management-software' &&
+          path !== '/features/student-attendance-management-system' &&
           path !== '/how-it-works' &&
           path !== '/school-erp-software' &&
           path !== '/student-information-system' &&
@@ -125,7 +127,9 @@ export async function generateMetadata({
                 } as Record<string, string>
               )[slug[1]]
             : 'Page not found',
-          'Explore school workflows with Cleezo Class.',
+          slug[0] === 'solutions' && slug[1] in roleContent
+            ? roleContent[slug[1] as keyof typeof roleContent].intro
+            : 'Explore school workflows with Cleezo Class.',
         ];
   return {
     title: info[0],
@@ -189,12 +193,16 @@ export default async function Page({ params }: { params: Promise<{ slug: string[
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: siteOrigin },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteOrigin + '/' },
       ...slug.map((s, i) => ({
         '@type': 'ListItem',
         position: i + 2,
-        name: titles[slug.slice(0, i + 1).join('/')]?.[0] || s.replaceAll('-', ' '),
-        item: siteOrigin + '/' + slug.slice(0, i + 1).join('/'),
+        name: i === 0 && s === 'school-management-system'
+          ? 'School Management Platform'
+          : titles[slug.slice(0, i + 1).join('/')]?.[0] || s.replaceAll('-', ' '),
+        item: i === 0 && s === 'school-management-system'
+          ? siteOrigin + '/platform/'
+          : siteOrigin + '/' + slug.slice(0, i + 1).join('/') + '/',
       })),
     ],
   };

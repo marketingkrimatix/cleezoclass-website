@@ -97,6 +97,13 @@ export function ModulePage({ module: m }: { module: Module }) {
         <p>{m.problem}</p>
       </section>
       <ModuleWorkflow module={m} />
+      {m.slug === 'scheduling' && (
+        <div className="wrap">
+          <TextLink href="/features/student-attendance-management-system/">
+            Explore the student attendance management system
+          </TextLink>
+        </div>
+      )}
       <section className="section wrap" id="capabilities">
         <Eyebrow>What supports the workflow</Eyebrow>
         <div className="section-heading">
@@ -226,7 +233,7 @@ export function PlatformPage() {
             when the handovers do.
           </h2>
           <p>
-            A class register leads to attendance follow-up. An assignment connects to a learning
+            A <Link href="/features/student-attendance-management-system/">class attendance register</Link> leads to attendance follow-up. An assignment connects to a learning
             resource. A fee record needs a clear receipt. Use your demo to follow these connections
             from start to finish.
           </p>
@@ -249,7 +256,7 @@ export function PlatformPage() {
     </>
   );
 }
-const roleContent = {
+export const roleContent = {
   leaders: {
     name: 'School leaders',
     title: 'A clearer view for the decisions that matter.',

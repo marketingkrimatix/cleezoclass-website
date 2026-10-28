@@ -1,0 +1,9 @@
+# Merge ONLY into the existing cleezoclass.com (non-www) HTTPS server block.
+# Preserve its existing TLS settings and /CRM application locations.
+# Use a location-level redirect, NOT a server-wide return that would intercept CRM.
+# Existing /CRM and /CRM/ location blocks must remain more specific than this one.
+location / {
+    return 301 https://www.cleezoclass.com$request_uri;
+}
+# Review existing regex locations; test /CRM and /CRM/ before and after deployment.
+# Validate the complete server configuration with nginx -t before reload.

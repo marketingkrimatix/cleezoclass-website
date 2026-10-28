@@ -10,10 +10,15 @@ const pages = {
   'solutions/teachers': 'A little less chasing. A little more teaching.',
   'solutions/parents': 'Stay closer to the school day.',
 };
+const descriptions = new Set();
 for (const [route, heading] of Object.entries(pages)) {
   const html = await readFile(`out/${route}/index.html`, 'utf8');
   assert.ok(html.includes(heading), `${route}: expected page content missing`);
   assert.ok(!html.includes('This page has moved.'), `${route}: redirect replaced page`);
   assert.ok(!html.includes('Page not found |'), `${route}: incorrect metadata`);
+  const description = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  assert.ok(description && !descriptions.has(description), `${route}: missing or duplicate description`);
+  descriptions.add(description);
+  assert.ok(!description.includes('Explore school workflows with Cleezo Class.'), `${route}: generic fallback`);
 }
 console.log('Solutions export checks passed (overview and all four role pages).');

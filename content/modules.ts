@@ -23,19 +23,19 @@ export const modules: Module[] = [
     label: 'Start the day',
     tagline: 'A clear start. A more coordinated day.',
     intro:
-      'Cleezo Class brings class schedules and student attendance into the school’s daily workflow. Teachers can record the register, administrators can review attendance, and parents can receive absence updates.',
+      'Cleezo Class brings class schedules and student attendance into the school’s daily workflow. Compatible biometric or RFID devices provide student attendance records, authorised staff can review attendance, and parents can receive alerts through the school’s paired official WhatsApp workflow.',
     audience: 'Class teachers, timetable coordinators, administrators and parents.',
     problem:
       'The morning register is only the beginning. An absence may need a parent update, a timetable change may affect several teachers, and school leaders need to know where to follow up. Separate records make those handovers harder to follow.',
     workflow: [
       {
         title: 'Set the day in context',
-        body: 'Start with the class, section, date and timetable. Make sure the student list reflects the current class before taking the register.',
+        body: 'Start with the class, section, date and timetable. Confirm that supported biometric or RFID records match the correct student profiles.',
         output: 'The right class and date',
       },
       {
-        title: 'Record and review attendance',
-        body: 'Mark the class register and check exceptions such as an absent student. Review the entry before using it for follow-up.',
+        title: 'Review connected attendance records',
+        body: 'Review attendance records from compatible biometric or RFID devices and check attendance exceptions. Teachers cannot manually mark student attendance in the teacher web portal.',
         output: 'A reviewed class register',
       },
       {
@@ -47,7 +47,7 @@ export const modules: Module[] = [
     features: [
       [
         'Class attendance',
-        'Record attendance against a class so teachers and administrators can refer to the same day’s register.',
+        'Review the class-wise student attendance register and attendance exceptions using records from compatible biometric or RFID devices.',
       ],
       [
         'Timetable planning',
@@ -64,7 +64,7 @@ export const modules: Module[] = [
     ],
     controls: [
       'Confirm how late arrivals, half days, corrections and excused absences are represented.',
-      'Ask who can edit a submitted register and how changes are recorded.',
+      'Confirm the correction and approval steps available to authorised users for attendance exceptions.',
       'Timetable quality depends on accurate teacher availability, subjects and scheduling constraints.',
     ],
     demo: [
